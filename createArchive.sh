@@ -1,4 +1,4 @@
-version="V1.6"
+version="V1.7_(Remove_silence)"
 
 filename="etrian-heardle_"$version
 

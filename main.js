@@ -254,6 +254,28 @@ var app = (function () {
     "Battlefield: Roaming Ruler [Lowest Last Boss Battle] - Etrian Odyssey 5: Beyond the Myth",
     "Tumult: Crest of a Violent Wave (Arranged Ver.) [Secret Boss Battle] - Etrian Odyssey 5: Beyond the Myth",
     "Beyond the Myth [Ending 2] - Etrian Odyssey 5: Beyond the Myth",
+    //// Etrian Mystery Dungeon 2
+    // https://vgmdb.net/album/69916
+    "Those Who Heed the Call [Opening] - Etrian Mystery Dungeon 2",
+    "The Curtain Rises on a Legend [Title Screen] - Etrian Mystery Dungeon 2",
+    "Lakeside Town Oberfay [Town] - Etrian Mystery Dungeon 2",
+    "Halcyon Days [Boss Defeated] - Etrian Mystery Dungeon 2",
+    "Hot Spring Inn, Sunlit Forest [Inn] - Etrian Mystery Dungeon 2",
+    "Jungle Ruins [1st Labyrinth] - Etrian Mystery Dungeon 2",
+    "Emerald Grove [2nd Labyrinth] - Etrian Mystery Dungeon 2",
+    "Molten Caves [3rd Labyrinth] - Etrian Mystery Dungeon 2",
+    "Azure Rainforest [4th Labyrinth] - Etrian Mystery Dungeon 2",
+    "Abyssal Shrine [5th Labyrinth] - Etrian Mystery Dungeon 2",
+    "Frozen Grounds [6th Labyrinth] - Etrian Mystery Dungeon 2",
+    "Claret Hollows [7th Labyrinth] - Etrian Mystery Dungeon 2",
+    "Misty Ravine [8th Labyrinth] - Etrian Mystery Dungeon 2",
+    "Ancient Circuitry [9th Labyrinth: 1st Part] - Etrian Mystery Dungeon 2",
+    "Creeping Decay [9th Labyrinth: 2nd Part] - Etrian Mystery Dungeon 2",
+    "Infinite Foes [Boss Battle] - Etrian Mystery Dungeon 2",
+    "Illusory Showdown [Nadika Battle] - Etrian Mystery Dungeon 2",
+    "The Gods Afflicted [Last Boss Battle] - Etrian Mystery Dungeon 2",
+    "Bloodstained Sword [Lowest Last Boss Battle] - Etrian Mystery Dungeon 2",
+    "The Curtain Falls on the Adventure [Ending] - Etrian Mystery Dungeon 2",
     //// Etrian Odyssey Nexus
     // https://vgmdb.net/album/85264
     "To the Stage of a New Adventure [Opening] - Etrian Odyssey Nexus",
@@ -542,640 +564,8 @@ var app = (function () {
         "Battlefield: Gust of Death [FOE Battle] - Etrian Odyssey 2 Untold: The Fafnir Knight",
     },
     {
-      url: "https://soundcloud.com/5038p00iul/battlefield-overlord-of",
-      answer:
-        "Battlefield: Overlord of Heavens [Last Boss Battle: Part 2] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/the-hand-that-spins-the-1",
-      answer:
-        "Ones Who Carry on the Legend [Title Screen] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/minor-labyrinth-ii-strange",
-      answer:
-        "Maze II: Forest Confounded by an Unknown Encounter [2nd Sub Dungeon] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/scene-the-silent-wind-blows",
-      answer:
-        "Scene: Wind in the Silence [Event: Truth] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/battlefield-is-this-blood-thine-or-the-enemys-etrian-odyssey-nexus-ver",
-      answer:
-        "Battlefield: Is this Blood Thine or the Enemy's? (Etrian Odyssey Nexus Ver.) [FOE Battle (4th Part)] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/petal-bridge",
-      answer: "Petal Bridge [10th Labyrinth: Utopia] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/the-end-of-your-adventure",
-      answer:
-        "The End of Your Adventure [Ending] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/emd2/engrave-thy-name",
-      answer: "Engrave Thy Name [Adventurer's Guild] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/labyrinth-world-shrine",
-      answer:
-        "Labyrinth: World Shrine [Dungeon: World Shrine] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/emd2/thy-name-has-been-etched-in",
-      answer:
-        "Thy Name Has Been Etched in the Hundredth Volume! [1st Labyrinth: Mysterious Labyrinth] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/reminiscence-a-millennium-of-1",
-      answer:
-        "Reminiscence: A Millennium of Solitude [Event: Thoughts] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/melancholy-each-their-own-1",
-      answer:
-        "Melancholy: Each Their Own Memories [Event: Sadness] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/dena-jones-205733218/etrian-odyssey-nexus-x-water-woods-of-the-submarine-ridge-x-ver-mpguncom",
-      answer:
-        "Labyrinth II: Undersea Grotto (Etrian Odyssey Nexus Ver.) [Dungeon: Undersea Grotto] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/cityscape-between-the-azure",
-      answer:
-        "Cityscape: Between the Azure Sky and Sea [Sea City Facility: Armoroad Plaza (Day)] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/battlefield-the-final-battle",
-      answer:
-        "Battlefield: The Final Battle [Last Boss Battle: Part 1] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/labyrinth-gladsheim",
-      answer:
-        "Labyrinth: Gladsheim [New Dungeon: Gladsheim 1F~4F] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/battlefield-dye-the-mad-with-blood",
-      answer:
-        "Battlefield: Dye the Mad with Blood [FOE Battle (6th Part)] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/the-tale-unfolds-opening",
-      answer: "The Tale Unfolds [Opening] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/desperate-battle-risking-our-1",
-      answer:
-        "Desperate Battle: Risking Our Lives [Transformation BGM] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/cityscape-roadside-trees",
-      answer:
-        "Cityscape: Roadside Trees Outside the Window [Etria Plaza (Day)] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/labyrinth-ii-primitive-jungle",
-      answer:
-        "Labyrinth II: Primitive Jungle [2nd Stratum Dungeon 6F~10F] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/minor-labyrinth-i-pioneering",
-      answer:
-        "Maze I: Path Worn by Explorers [1st Sub Dungeon] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/emd2/sacred-mountains",
-      answer:
-        "Sacred Mountains [5th Labyrinth: Crystalline Peak] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/battlefield-perish-like-the-dew",
-      answer:
-        "Battlefield: Perish Like the Dew [Normal Battle: Last Stratum] - Etrian Odyssey Origins Collection : Etrian Odyssey 3",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/battlefield-life-or-death-1",
-      answer:
-        "Battlefield: Grasp the Future Beyond a Deadly Battle [Normal Battle: 2nd Part] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/emd2/drifting-suspicions",
-      answer:
-        "Drifting Suspicions [Event: Arising Anxiety] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/cityscape-thy-name-has-been",
-      answer:
-        "Cityscape: Thy Name Has Been Etched in the Hundredth Volume! [Explorers Guild] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/scene-a-chance-meeting",
-      answer:
-        "Scene: Unexpected Meeting [Foreigner Theme] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/battlefield-the-throne-of",
-      answer:
-        "Battlefield: The Throne of Heaven and Earth [Last Boss Battle] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/labyrinth-iii-graveyard-of-1",
-      answer:
-        "Labyrinth III: Fetid Necropolis [3rd Stratum Dungeon 11F~15F] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/cityscape-the-beautifully",
-      answer:
-        "Cityscape: The Beautifully Noble Land [Duke's Palace] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/cityscape-land-spread-up-north",
-      answer:
-        "Cityscape: Land Spread Up North [Hi-Lagaard Plaza (Day)] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/cityscape-roadside-trees",
-      answer:
-        "Cityscape: Roadside Trees Outside the Window [Etrian Square: Day-1] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/battlefield-to-fall-is-fair",
-      answer:
-        "Battlefield: To Fall Is Fair [Secret Boss Battle] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/town-remembering-the-names-1",
-      answer:
-        "Cityscape: Names That will be Spoken of for Generations [Adventurer Guild] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/labyrinth-vi-claret-hollows",
-      answer:
-        "Labyrinth VI: Claret Hollows [6th Stratum Dungeon 26F~30F] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/now-begin-your-adventure",
-      answer:
-        "Now Begin Your Adventure! [Opening] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/emd2/raise-thy-sword-in-pride",
-      answer:
-        "Raise Thy Sword in Pride [Boss Battle: 1st Part] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/battlefield-the-first-battle-etrian-odyssey-nexus-ver",
-      answer:
-        "Battlefield: The First Battle (Etrian Odyssey Nexus Ver.) [Normal Battle (4th Part)] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/labyrinth-i-emerald-grove",
-      answer:
-        "Labyrinth I: Emerald Grove [1st Stratum Dungeon 1F~5F] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/emd2/waltz-of-the-red-lion",
-      answer: "Waltz of the Red Lion [Labyrinth Shop] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/pepito-x/etrian-odyssey-nexus-x-final",
-      answer:
-        "Tumult: Twilight of All Life [Last Boss Battle] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/battlefield-is-this-blood",
-      answer:
-        "Battlefield: Is this Blood Thine or the Enemy's? [FOE Battle] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/return-of-the-heroes-ending-1",
-      answer:
-        "Return of the Heroes [Ending 1] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/ones-faith-in-the-staff",
-      answer:
-        "One's Faith in the Staff [11th Labyrinth: Phantom Depths] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/labyrinth-iv-petal-bridge",
-      answer:
-        "Labyrinth IV: Petal Bridge [4th Stratum Dungeon 16F~20F] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/battlefield-the-throne-of-heaven-and-earth",
-      answer:
-        "Battlefield: The Throne of Heaven and Earth [Last Boss Battle] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/scene-red-and-black-event-fear",
-      answer: "Scene: Red and Black [Event: Fear] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/unrest-lord-of-the-beyond",
-      answer:
-        "Battlefield: Roaming Ruler [Lowest Last Boss Battle] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/tumult-each-their-own-justice",
-      answer:
-        "Tumult: Each Their Own Justice [Last Boss Battle] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/unrest-end-of-the-raging-waves",
-      answer:
-        "Tumult: Crest of a Violent Wave (Arranged Ver.) [Secret Boss Battle] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/cityscape-the-dusk-clad-ocean",
-      answer:
-        "Cityscape: The Dusk Clad Ocean City [Sea City Facility: Armoroad Plaza (Night)] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/battlefield-overlord-of",
-      answer:
-        "Battlefield: Overlord of Heavens [Last Boss Battle: Part 2] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/labyrinth-v-lost-shinjuku",
-      answer:
-        "Labyrinth V: Lost Shinjuku [5th Stratum Dungeon 21F~25F] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/emd2/amber-and-yggdrasil",
-      answer: "Amber and Yggdrasil [Event: Amber] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/battlefield-to-fall-is-fair",
-      answer:
-        "Battlefield: To Fall Is Fair [Secret Boss Battle] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/emd2/memories-of-days-foregone",
-      answer:
-        "Memories of Days Foregone [Event: Painful Memories] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/400-your-adventures-end",
-      answer:
-        "400: Your Adventures End [Ending 2] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/strife-first-strike",
-      answer:
-        "Strife: First Strike [Normal Battle: 1st Part] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/labyrinth-v-lost-shinjuku",
-      answer:
-        "Labyrinth V: Lost Shinjuku [5th Stratum Dungeon 21F~25F] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/battlefield-shudder-normal",
-      answer:
-        "Battlefield: Shudder [Normal Battle: Last Stratum] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/battlefield-scarlet-rain-boss",
-      answer:
-        "Battlefield: Scarlet Rain [Boss Battle] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/cityscape-the-ones-engraved-in",
-      answer:
-        "Cityscape: The Ones Engraved in Legends [Adventurer Guild] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/crimson-blaze-dancing-blades",
-      answer:
-        "Crimson Blaze, Dancing Blades [Dragon's Cave: Thunderous Cave/Glacial Cave/Burning Cave] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/cityscape-etch-thy-name-among-the-stars",
-      answer:
-        "Cityscape: Etch Thy Name among the Stars [Adventurer Guild] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/labyrinth-v-porcelain-forest",
-      answer:
-        "Labyrinth V: Porcelain Forest [5th Stratum Dungeon 17F~20F] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/area-i-windy-plains-chapter-1",
-      answer:
-        "Landscape I: Windy Plains [1st Stratum Skies] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/to-the-stage-of-a-new-adventure",
-      answer:
-        "To the Stage of a New Adventure [Opening] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/cityscape-land-spread-up-north",
-      answer:
-        "Cityscape: Land Spread Up North [Central City: Day] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/labyrinth-abyssal-shrine",
-      answer:
-        "Labyrinth: Abyssal Shrine [Dungeon: Abyssal Shrine] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/labyrinth-i-primitive-jungle",
-      answer:
-        "Labyrinth I: Primitive Jungle [1st Stratum Dungeon 1F~5F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/townscape-the-bliss-of-warm",
-      answer:
-        "Cityscape: Lukewarm Peace in the Shade [Town Plaza (Night)/Bar] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/labyrinth-vi-hall-of-darkness",
-      answer:
-        "Labyrinth VI: Hall of Darkness [6th Stratum Dungeon] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/dena-jones-205733218/etrian-odyssey-nexus-x-shop-mpguncom",
-      answer:
-        "Cityscape: The Dusk-clad Ocean City (Etrian Odyssey Nexus Ver.) [Town Plaza (Night)/Shop/Bar] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/townscape-a-town-embraced-by",
-      answer:
-        "Cityscape: The City Embraced by a Teal Sky [Town Plaza (Day)/Inn/Trading Post] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/scene-unknown-threat",
-      answer:
-        "Scene: Unknown Threat [Event: Tension] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/battlefield-the-first-battle",
-      answer:
-        "Battlefield: The First Battle [Normal Battle: 1st Part] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/final-battle-the-future-of-the-world",
-      answer:
-        "Final Battle: The Future of the World [Last Boss Battle: Gladsheim] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/cityscape-the-ones-engraved-in",
-      answer:
-        "Cityscape: The Ones Engraved in Legends [Guild] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/labyrinth-vi-forbidden-wood",
-      answer:
-        "Labyrinth VI: Forbidden Wood [6th Stratum Dungeon 26F~30F] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/cityscape-cradle-of-the-lone-isle",
-      answer:
-        "Cityscape: Cradle of the Lone Isle [Town Plaza (Day)/Inn] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/cityscape-lounge-with-talks-of-tomorrow",
-      answer:
-        "Cityscape: Lounge with Talks of Tomorrow [Etria Plaza (Night)] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/war-the-legends-successor",
-      answer:
-        "Tumult: Inheritor of the Legend [Last Boss Battle] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/labyrinth-iii-azure-rainforest",
-      answer:
-        "Labyrinth III: Azure Rainforest [3rd Stratum Dungeon 11F~15F] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/strife-kill-or-be-killed",
-      answer:
-        "Strife: Kill or be Killed [Normal Battle: 2nd Part] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/labyrinth-vi-redshift-corridor",
-      answer:
-        "Labyrinth VI: Empyreal Bridge [6th Stratum Dungeon 26F~30F] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/battlefield-elation",
-      answer:
-        "Battlefield: Elation [Normal Battle (1st Part)] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/battlefield-activation",
-      answer:
-        "Battlefield: First Move [Normal Battle: 1st Part] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/cityscape-prep-for-tomorrow",
-      answer:
-        "Cityscape: Prep for Tomorrow [Guild House] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/battlefield-deaths-crossroad",
-      answer:
-        "Battlefield: Death's Crossroad [Normal Battle (9th Part)] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/labyrinth-iv-rainbow-druse",
-      answer:
-        "Labyrinth IV: Lucent Hollows [4th Stratum Dungeon 16F~20F] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/labyrinth-v-heavenly-keep",
-      answer:
-        "Labyrinth V: Heavenly Keep [5th Stratum Dungeon 21F~25F] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/emd2/a-storm-ahead",
-      answer:
-        "A Storm Ahead [4th Labyrinth: Haunted Woods] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/heroes-are-born-and-the-story",
-      answer:
-        "Heroes are Born, And the Story Continues [Ending 1] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/the-battlefield-that-never",
-      answer:
-        "The Battlefield That Never Sleeps [Lowest Last Boss Battle] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/battlefield-critical-1",
-      answer:
-        "Battlefield: A Crucial Moment [FOE Battle] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/tumult-sounds-of-war-deep-1",
-      answer:
-        "Tumult: Sounds of War Deep Below [Final Boss Battle: Ginnungagap] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/emd2/brush-with-death",
-      answer: "Brush with Death [Monster House] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/tumult-crest-of-a-violent-wave",
-      answer:
-        "Tumult: Crest of a Violent Wave [Great Voyage Quest Boss Battle] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/labyrinth-iii-frozen-grounds",
-      answer:
-        "Labyrinth III: Frozen Grounds [3rd Stratum Dungeon 11F~15F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/labyrinth-ii-primitive-jungle",
-      answer:
-        "Labyrinth II: Primitive Jungle [2nd Stratum Dungeon 6F~10F] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/minor-labyrinth-iv-ruins",
-      answer:
-        "Maze IV: Ruins Littered with Memories [4th Sub Dungeon] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/battlefield-resonating-sounds",
-      answer:
-        "Battlefield: Resonating Sounds of Battle [Normal Battle: 2nd Part] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/war-the-end-of-raging-winds",
-      answer:
-        "Tumult: Beyond the Scorching Heat [Skies FOE/Hunting Quest/Event Boss] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/labyrinth-iii-frozen-grounds",
-      answer:
-        "Labyrinth III: Frozen Grounds [3rd Stratum Dungeon 11F~15F] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/emd2/regain-thy-treasure-fight-for",
-      answer:
-        "Regain Thy Treasure, Fight for Thy Soul [Labyrinth Shop (Robbery)] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/townscape-engraved-are-the",
-      answer:
-        "Cityscape: Engraved Are Names That Echo to the Morrow [Explorer's Guild] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/strife-rapture",
-      answer:
-        "Strife: Rapture [Normal Battle: Last Stratum] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/labyrinth-i-primitive-jungle",
-      answer:
-        "Labyrinth I: Primitive Jungle [1st Stratum Dungeon 1F~5F] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/battlefield-raise-thy-swords-1",
-      answer:
-        "Battlefield: Raise Thy Swords [Normal Battle: Ginnungagap] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/cityscape-one-hundred-years",
-      answer:
-        "Cityscape: One Hundred Years [Sea City Establishment: Senatus] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/battlefield-guardian-of-the",
-      answer:
-        "Battlefield: Guardian of the Doleful Glacier [Artelinde & Wilhelm Battle] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/tumult-raise-thy-sword-in",
-      answer:
-        "Tumult: Raise Thy Sword in Pride [Boss Battle] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/scene-viridian-and-silver",
-      answer:
-        "Scene: Viridian and Silver [Event: Truth] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/labyrinth-vi-cyclopean-haunt",
-      answer:
-        "Labyrinth VI: Cyclopean Haunt [6th Stratum Dungeon 21F~25F] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/the-curtain-rises-on-an",
-      answer:
-        "The Curtain Rises on an Adventure [Opening] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/battlefield-the-two-towers",
-      answer:
-        "Battlefield: The Two Towers [Ren & Tlachtga Battle] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/scene-viridian-and-silver",
-      answer:
-        "Scene: Viridian and Silver [Event: Truth] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/the-end-of-your-adventure",
-      answer: "The End of Your Adventure [Ending 2] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/city-remains",
-      answer: "City Remains [Mysterious Forest] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/cityscape-the-wind-shall",
-      answer:
-        "Cityscape: The Wind Shall Summon Heroes [Hi-Lagaard Plaza (Night)] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/battlefield-final-battle-final",
-      answer:
-        "Battlefield: Final Battle [Last Boss Battle: Part 1] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/battlefield-to-fall-is-fair",
-      answer:
-        "Battlefield: To Fall Is Fair [Secret Boss Battle] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/the-tale-unfolds",
-      answer:
-        "The Tale Unfolds [Opening] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/emd2/auburn-thicket",
-      answer:
-        "Auburn Thicket [2nd Labyrinth: Emerald Copse] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/triumph-together-under-our-banner",
-      answer:
-        "Alongside Proof of Attainment [Ending 1] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/minor-labyrinth-iii-a-cave",
-      answer:
-        "Maze III: Cave Excited by a New Encounter [3rd Sub Dungeon] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/scene-unknown-menace",
-      answer:
-        "Scene: Unknown Threat [Event: Tension] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/war-the-fierce-burning-sword",
-      answer:
-        "Tumult: Crimson Blaze, Dancing Blades [Boss Battle] - Etrian Odyssey 4: Legends of the Titan",
+      url: "https://soundcloud.com/emd2/azure-rainforest-etrian",
+      answer: "Azure Rainforest [4th Labyrinth] - Etrian Mystery Dungeon 2",
     },
     {
       url: "https://soundcloud.com/eo2u/grief-the-ends-of-emotion",
@@ -1183,136 +573,28 @@ var app = (function () {
         "Grief: The Ends of Emotion [Event: Protector] - Etrian Odyssey 2 Untold: The Fafnir Knight",
     },
     {
-      url: "https://soundcloud.com/beignet1/battlefield-drenched-in-red",
-      answer: "Battlefield: Drenched in Red [Boss Battle] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/labyrinth-iv-echoing-library",
+      url: "https://soundcloud.com/5038p00iul/cityscape-lounge-with-talks-of-tomorrow",
       answer:
-        "Labyrinth IV: Echoing Library [4th Stratum Dungeon] - Etrian Odyssey 4: Legends of the Titan",
+        "Cityscape: Lounge with Talks of Tomorrow [Etria Plaza (Night)] - Etrian Odyssey Untold: The Millennium Girl",
     },
     {
-      url: "https://soundcloud.com/eo2u/labyrinth-iv-petal-bridge",
+      url: "https://soundcloud.com/beignet4/townscape-the-bliss-of-warm",
       answer:
-        "Labyrinth IV: Petal Bridge [4th Stratum Dungeon 16F~20F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+        "Cityscape: Lukewarm Peace in the Shade [Town Plaza (Night)/Bar] - Etrian Odyssey 4: Legends of the Titan",
     },
     {
-      url: "https://soundcloud.com/beignet1/tumult-call-that-dreadful-name",
+      url: "https://soundcloud.com/emd2/hot-spring-inn-sunlit-forest",
+      answer: "Hot Spring Inn, Sunlit Forest [Inn] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/crimson-blaze-dancing-blades",
       answer:
-        "Tumult: Call That Dreadful Name [Lowest Last Boss Battle] - Etrian Odyssey 3: The Drowned City",
+        "Crimson Blaze, Dancing Blades [Dragon's Cave: Thunderous Cave/Glacial Cave/Burning Cave] - Etrian Mystery Dungeon",
     },
     {
-      url: "https://soundcloud.com/eo2u/battlefield-guardian-of-the",
+      url: "https://soundcloud.com/eo2u/labyrinth-i-primitive-jungle",
       answer:
-        "Battlefield: Guardian of the Doleful Glacier [Artelinde & Wilhelm Battle] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/emd2/beyond-the-scorching-heat",
-      answer:
-        "Beyond the Scorching Heat [7th Labyrinth: Muspelheim] - Etrian Mystery Dungeon",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/cityscape-sunlight-on-the",
-      answer:
-        "Cityscape: Sunlight on the Water [Sea City Facility: Inver Port] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/strife-first-strike-normal",
-      answer:
-        "Strife: First Strike [Normal Battle: 1st Part] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/area-iv-cloudy-stronghold",
-      answer:
-        "Landscape IV: Cloudy Stronghold [4th Stratum Skies] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/scene-the-ancient-oath",
-      answer:
-        "Scene: The Ancient Pact [Foreigner Theme B] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/scene-red-and-black",
-      answer:
-        "Scene: Red and Black [Event: Fear] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/battlefield-the-two-towers-ren",
-      answer:
-        "Battlefield: The Two Towers [Ren & Tlachtga Battle] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/strife-kill-or-be-killed",
-      answer:
-        "Strife: Kill or be Killed [Normal Battle: 2nd Part] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/seize-the-future",
-      answer:
-        "Seize the Future [Event: Theme] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/400-your-adventures-end-ending",
-      answer: "400: Your Adventures End [Ending 2] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/labyrinth-iii-azure-rainforest",
-      answer:
-        "Labyrinth III: Azure Rainforest [3rd Stratum Dungeon 11F~15F] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/cityscape-the-overwatching",
-      answer:
-        "Cityscape: The Overwatching Tree [Deep City Facility: Deep City Plaza (Night)] - Etrian Odyssey 3: The Drowned City",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/the-beginning-of-the-end",
-      answer:
-        "the beginning of the end [Town Opening Animation] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/labyrinth-iii-golden-lair",
-      answer:
-        "Labyrinth III: Golden Lair [3rd Stratum Dungeon] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/battlefield-faith-is-my-pillar",
-      answer:
-        "Battlefield: One's Faith in the Staff [Normal Battle: 2nd Part] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/scene-blood-and-darkness",
-      answer:
-        "Scene: Blood and Darkness [Event: Fear] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/scene-cold-justice",
-      answer:
-        "Scene: Cold Justice [Event: Truth] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/labyrinth-i-lush-woodlands",
-      answer:
-        "Labyrinth I: Lush Woodlands [1st Stratum Dungeon] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/battlefield-scarlet-rain",
-      answer:
-        "Battlefield: Scarlet Rain [Boss Battle] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/overlord-zenon-xenonnia/etrian-odyssey-nexus-hoist-the",
-      answer:
-        "Tumult: Raise Thy Sword in Pride (Etrian Odyssey Nexus Ver.) [Boss Battle (4st Part)] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/intersecting-journeys",
-      answer: "Intersecting Journeys [Title Screen] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/islescape-undiscovered-continent",
-      answer:
-        "Islescape: Undiscovered Continent [World Map] - Etrian Odyssey Nexus",
+        "Labyrinth I: Primitive Jungle [1st Stratum Dungeon 1F~5F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
     },
     {
       url: "https://soundcloud.com/beignet1/tumult-to-fall-is-fair",
@@ -1320,34 +602,109 @@ var app = (function () {
         "Tumult: To Fall Is Fair [Secret Boss Battle] - Etrian Odyssey 3: The Drowned City",
     },
     {
-      url: "https://soundcloud.com/beignet1/cityscape-the-king-lost-in",
+      url: "https://soundcloud.com/eo2u/battlefield-the-first-battle",
       answer:
-        "Cityscape: The King Lost in Time [Deep City Facility: Celestial Palace] - Etrian Odyssey 3: The Drowned City",
+        "Battlefield: The First Battle [Normal Battle: 1st Part] - Etrian Odyssey 2 Untold: The Fafnir Knight",
     },
     {
-      url: "https://soundcloud.com/emd2/waterfall-wood",
+      url: "https://soundcloud.com/5038p00iul/battlefield-guardian-of-the",
       answer:
-        "Waterfall Wood [3rd Labyrinth: Pristine Stream] - Etrian Mystery Dungeon",
+        "Battlefield: Guardian of the Doleful Glacier [Artelinde & Wilhelm Battle] - Etrian Odyssey 2: Heroes of Lagaard",
     },
     {
-      url: "https://soundcloud.com/beignet1/labyrinth-i-waterfall-wood",
-      answer:
-        "Labyrinth I: Waterfall Wood [1st Stratum Dungeon 1F~4F] - Etrian Odyssey 3: The Drowned City",
+      url: "https://soundcloud.com/5038p00iul/city-remains",
+      answer: "City Remains [Mysterious Forest] - Etrian Mystery Dungeon",
     },
     {
-      url: "https://soundcloud.com/5038p00iul/call-that-dreadful-name",
+      url: "https://soundcloud.com/beignet1/labyrinth-ii-primitive-jungle",
       answer:
-        "Call That Dreadful Name [Lowest Last Boss Battle] - Etrian Mystery Dungeon",
+        "Labyrinth II: Primitive Jungle [2nd Stratum Dungeon 6F~10F] - Etrian Odyssey 1",
     },
     {
-      url: "https://soundcloud.com/beignet0/cityscape-the-bird-atop-the",
+      url: "https://soundcloud.com/beignet1/battlefield-is-this-blood",
       answer:
-        "Cityscape: The Bird Atop the Gable [Etria Plaza (Day 2)] - Etrian Odyssey Untold: The Millennium Girl",
+        "Battlefield: Is this Blood Thine or the Enemy's? [FOE Battle] - Etrian Odyssey 3: The Drowned City",
     },
     {
-      url: "https://soundcloud.com/etrian5/town-source-of-the-morning-1",
+      url: "https://soundcloud.com/eo2u/tumult-sounds-of-war-deep-1",
       answer:
-        "Cityscape: The Sun Rises for Ones Who Smile [Town Plaza (Day)/Inn] - Etrian Odyssey 5: Beyond the Myth",
+        "Tumult: Sounds of War Deep Below [Final Boss Battle: Ginnungagap] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/minor-labyrinth-iv-ruins",
+      answer:
+        "Maze IV: Ruins Littered with Memories [4th Sub Dungeon] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/emd2/misty-ravine-etrian-mystery",
+      answer: "Misty Ravine [8th Labyrinth] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/emd2/lakeside-town-oberfay-etrian",
+      answer: "Lakeside Town Oberfay [Town] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/labyrinth-vi-forbidden-wood",
+      answer:
+        "Labyrinth VI: Forbidden Wood [6th Stratum Dungeon 26F~30F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/battlefield-drenched-in-red",
+      answer: "Battlefield: Drenched in Red [Boss Battle] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/emd2/emerald-grove-etrian-mystery",
+      answer: "Emerald Grove [2nd Labyrinth] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/labyrinth-vi-cyclopean-haunt",
+      answer:
+        "Labyrinth VI: Cyclopean Haunt [6th Stratum Dungeon 21F~25F] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/battlefield-the-two-towers",
+      answer:
+        "Battlefield: The Two Towers [Ren & Tlachtga Battle] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/emd2/regain-thy-treasure-fight-for",
+      answer:
+        "Regain Thy Treasure, Fight for Thy Soul [Labyrinth Shop (Robbery)] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/scene-cold-justice",
+      answer:
+        "Scene: Cold Justice [Event: Truth] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/battlefield-to-fall-is-fair",
+      answer:
+        "Battlefield: To Fall Is Fair [Secret Boss Battle] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/emd2/raise-thy-sword-in-pride",
+      answer:
+        "Raise Thy Sword in Pride [Boss Battle: 1st Part] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/strife-first-strike",
+      answer:
+        "Strife: First Strike [Normal Battle: 1st Part] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/battlefield-overlord-of",
+      answer:
+        "Battlefield: Overlord of Heavens [Last Boss Battle: Part 2] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/now-begin-your-adventure",
+      answer:
+        "Now Begin Your Adventure! [Opening] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/unrest-ordeal-of-stars",
+      answer:
+        "Battlefield: Challenge of the Stars [Last Boss Battle] - Etrian Odyssey 5: Beyond the Myth",
     },
     {
       url: "https://soundcloud.com/beignet0/tumult-the-slaughtered",
@@ -1355,14 +712,782 @@ var app = (function () {
         "Tumult: The Slaughtered [Boss Battle (1st Part)] - Etrian Odyssey Nexus",
     },
     {
+      url: "https://soundcloud.com/emd2/frozen-grounds-etrian-mystery",
+      answer: "Frozen Grounds [6th Labyrinth] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/emd2/abyssal-shrine-etrian-mystery",
+      answer: "Abyssal Shrine [5th Labyrinth] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/the-curtain-rises-on-an",
+      answer:
+        "The Curtain Rises on an Adventure [Opening] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/emd2/halcyon-days-etrian-mystery",
+      answer: "Halcyon Days [Boss Defeated] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/battlefield-overlord-of",
+      answer:
+        "Battlefield: Overlord of Heavens [Last Boss Battle: Part 2] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/labyrinth-iii-frozen-grounds",
+      answer:
+        "Labyrinth III: Frozen Grounds [3rd Stratum Dungeon 11F~15F] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/battlefield-activation",
+      answer:
+        "Battlefield: First Move [Normal Battle: 1st Part] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/war-the-end-of-raging-winds",
+      answer:
+        "Tumult: Beyond the Scorching Heat [Skies FOE/Hunting Quest/Event Boss] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/battlefield-scarlet-rain-boss",
+      answer:
+        "Battlefield: Scarlet Rain [Boss Battle] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/tumult-call-that-dreadful-name",
+      answer:
+        "Tumult: Call That Dreadful Name [Lowest Last Boss Battle] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/the-hand-that-spins-the-1",
+      answer:
+        "Ones Who Carry on the Legend [Title Screen] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/strife-kill-or-be-killed",
+      answer:
+        "Strife: Kill or be Killed [Normal Battle: 2nd Part] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/desperate-battle-risking-our-1",
+      answer:
+        "Desperate Battle: Risking Our Lives [Transformation BGM] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/cityscape-peaceful-dining",
+      answer:
+        "Cityscape: Peaceful Dining [Guild House] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/cityscape-the-wind-shall",
+      answer:
+        "Cityscape: The Wind Shall Summon Heroes [Central City: Night] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/labyrinth-gladsheim",
+      answer:
+        "Labyrinth: Gladsheim [New Dungeon: Gladsheim 1F~4F] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/cityscape-between-the-azure",
+      answer:
+        "Cityscape: Between the Azure Sky and Sea [Sea City Facility: Armoroad Plaza (Day)] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/war-the-fierce-burning-sword",
+      answer:
+        "Tumult: Crimson Blaze, Dancing Blades [Boss Battle] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/labyrinth-iv-petal-bridge",
+      answer:
+        "Labyrinth IV: Petal Bridge [4th Stratum Dungeon 16F~20F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/scene-a-chance-meeting",
+      answer:
+        "Scene: Unexpected Meeting [Foreigner Theme] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/emd2/brush-with-death",
+      answer: "Brush with Death [Monster House] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/labyrinth-i-emerald-grove",
+      answer:
+        "Labyrinth I: Emerald Grove [1st Stratum Dungeon 1F~5F] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/cityscape-the-ones-engraved-in",
+      answer:
+        "Cityscape: The Ones Engraved in Legends [Adventurer Guild] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/minor-labyrinth-iii-a-cave",
+      answer:
+        "Maze III: Cave Excited by a New Encounter [3rd Sub Dungeon] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/tumult-raise-thy-sword-in",
+      answer:
+        "Tumult: Raise Thy Sword in Pride [Boss Battle] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/battlefield-resonating-sounds",
+      answer:
+        "Battlefield: Resonating Sounds of Battle [Normal Battle: 2nd Part] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
       url: "https://soundcloud.com/etrian5/battlefield-shining-dagger-shadow-blade",
       answer:
         "Battlefield: Flashing Blades [Normal Battle: Last Stratum] - Etrian Odyssey 5: Beyond the Myth",
     },
     {
+      url: "https://soundcloud.com/beignet0/scene-blue-and-white",
+      answer:
+        "Scene: Blue and White [Event: Truth] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/battlefield-is-this-blood-thine-or-the-enemys-etrian-odyssey-nexus-ver",
+      answer:
+        "Battlefield: Is this Blood Thine or the Enemy's? (Etrian Odyssey Nexus Ver.) [FOE Battle (4th Part)] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/seize-the-future",
+      answer:
+        "Seize the Future [Event: Theme] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/town-remembering-the-names-1",
+      answer:
+        "Cityscape: Names That will be Spoken of for Generations [Adventurer Guild] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/labyrinth-i-guardian-spirits-1",
+      answer:
+        "Labyrinth I: Tutelary Forest [1st Stratum Dungeon 1F~5F] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/cityscape-land-spread-up-north",
+      answer:
+        "Cityscape: Land Spread Up North [Hi-Lagaard Plaza (Day)] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/the-battlefield-that-never",
+      answer:
+        "The Battlefield That Never Sleeps [Lowest Last Boss Battle] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/strife-rapture",
+      answer:
+        "Strife: Rapture [Normal Battle: Last Stratum] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/labyrinth-ii-primitive-jungle",
+      answer:
+        "Labyrinth II: Primitive Jungle [2nd Stratum Dungeon 6F~10F] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/cityscape-the-beautifully",
+      answer:
+        "Cityscape: The Beautifully Noble Land [Duke's Palace] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/emd2/memories-of-days-foregone",
+      answer:
+        "Memories of Days Foregone [Event: Painful Memories] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/cityscape-lounge-with-talks-of",
+      answer:
+        "Cityscape: Lounge with Talks of Tomorrow [Etrian Square: Night] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/cityscape-seek-the-hidden-treasure",
+      answer:
+        "Cityscape: Seek the Hidden Treasure [Exploration HQ] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/battlefield-resonating-sounds",
+      answer:
+        "Battlefield: Resonating Sounds of Battle [Normal Battle: 2nd Part] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/emd2/engrave-thy-name",
+      answer: "Engrave Thy Name [Adventurer's Guild] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/battlefield-life-or-death-1",
+      answer:
+        "Battlefield: Grasp the Future Beyond a Deadly Battle [Normal Battle: 2nd Part] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/cityscape-sunlight-on-the",
+      answer:
+        "Cityscape: Sunlight on the Water [Sea City Facility: Inver Port] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/cityscape-the-dusk-clad-ocean",
+      answer:
+        "Cityscape: The Dusk Clad Ocean City [Sea City Facility: Armoroad Plaza (Night)] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/emd2/amber-and-yggdrasil",
+      answer: "Amber and Yggdrasil [Event: Amber] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/scene-the-ancient-oath",
+      answer:
+        "Scene: The Ancient Pact [Foreigner Theme B] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/labyrinth-ginnungagap",
+      answer:
+        "Labyrinth: Ginnungagap [New Dungeon: Ginnungagap 1F~4F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/intersecting-journeys",
+      answer: "Intersecting Journeys [Title Screen] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/labyrinth-abyssal-shrine",
+      answer:
+        "Labyrinth: Abyssal Shrine [Dungeon: Abyssal Shrine] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/scene-unknown-threat",
+      answer:
+        "Scene: Unknown Threat [Event: Tension] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/battlefield-those-who-fall",
+      answer:
+        "Battlefield: Those Who Fall [Normal Battle: 2nd Part (B09~25F)] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/labyrinth-iii-azure-rainforest",
+      answer:
+        "Labyrinth III: Azure Rainforest [3rd Stratum Dungeon 11F~15F] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/ones-faith-in-the-staff",
+      answer:
+        "One's Faith in the Staff [11th Labyrinth: Phantom Depths] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/battlefield-the-first-battle-etrian-odyssey-nexus-ver",
+      answer:
+        "Battlefield: The First Battle (Etrian Odyssey Nexus Ver.) [Normal Battle (4th Part)] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/emd2/illusory-showdown-etrian",
+      answer: "Illusory Showdown [Nadika Battle] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/battlefield-faith-is-my-pillar",
+      answer:
+        "Battlefield: One's Faith in the Staff [Normal Battle: 2nd Part] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/battlefield-to-fall-is-fair",
+      answer:
+        "Battlefield: To Fall Is Fair [Secret Boss Battle] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/cityscape-one-hundred-years",
+      answer:
+        "Cityscape: One Hundred Years [Sea City Establishment: Senatus] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/cityscape-the-wind-shall",
+      answer:
+        "Cityscape: The Wind Shall Summon Heroes [Hi-Lagaard Plaza (Night)] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/labyrinth-the-deep-ends-of-1",
+      answer:
+        "Labyrinth: The Deep Ends of Ginnungagap [New Dungeon: Ginnungagap 5F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/battlefield-elation",
+      answer:
+        "Battlefield: Elation [Normal Battle (1st Part)] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/labyrinth-yggdrasil-labyrinth",
+      answer:
+        "Labyrinth: Yggdrasil Labyrinth [Dungeon: Yggdrasil Labyrinth] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/nekkoblue2/etrian-odyssey-nexus-foe",
+      answer:
+        "Battlefield: The Foolhardy are Bathed in Blood [FOE Battle (1st Part)] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/labyrinth-iv-petal-bridge",
+      answer:
+        "Labyrinth IV: Petal Bridge [4th Stratum Dungeon 16F~20F] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/call-that-dreadful-name",
+      answer:
+        "Call That Dreadful Name [Lowest Last Boss Battle] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/unrest-end-of-the-raging-waves",
+      answer:
+        "Tumult: Crest of a Violent Wave (Arranged Ver.) [Secret Boss Battle] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/cityscape-the-beautifully",
+      answer:
+        "Cityscape: The Beautifully Noble Land [Lagaard Archduke Palace] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/cityscape-roadside-trees",
+      answer:
+        "Cityscape: Roadside Trees Outside the Window [Etria Plaza (Day)] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/dena-jones-205733218/etrian-odyssey-nexus-x-water-woods-of-the-submarine-ridge-x-ver-mpguncom",
+      answer:
+        "Labyrinth II: Undersea Grotto (Etrian Odyssey Nexus Ver.) [Dungeon: Undersea Grotto] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/battlefield-the-throne-of",
+      answer:
+        "Battlefield: The Throne of Heaven and Earth [Last Boss Battle] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/battlefield-scarlet-rain",
+      answer:
+        "Battlefield: Scarlet Rain [Boss Battle] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/battlefield-to-fall-is-fair",
+      answer:
+        "Battlefield: To Fall Is Fair [Secret Boss Battle] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/labyrinth-iii-graveyard-of-1",
+      answer:
+        "Labyrinth III: Fetid Necropolis [3rd Stratum Dungeon 11F~15F] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/emd2/the-curtain-rises-on-a-legend",
+      answer:
+        "The Curtain Rises on a Legend [Title Screen] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/emd2/waltz-of-the-red-lion",
+      answer: "Waltz of the Red Lion [Labyrinth Shop] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/scene-red-and-black",
+      answer:
+        "Scene: Red and Black [Event: Fear] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/emd2/claret-hollows-etrian-mystery",
+      answer: "Claret Hollows [7th Labyrinth] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/the-end-of-your-adventure",
+      answer:
+        "The End of Your Adventure [Ending] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/emd2/drifting-suspicions",
+      answer:
+        "Drifting Suspicions [Event: Arising Anxiety] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/scene-cold-justice",
+      answer:
+        "Scene: Cold Justice [Event: Truth] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/emd2/the-curtain-falls-on-the",
+      answer:
+        "The Curtain Falls on the Adventure [Ending] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/emd2/creeping-decay-etrian-mystery",
+      answer:
+        "Creeping Decay [9th Labyrinth: 2nd Part] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/islescape-undiscovered-continent",
+      answer:
+        "Islescape: Undiscovered Continent [World Map] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/battlefield-shudder-normal",
+      answer:
+        "Battlefield: Shudder [Normal Battle: Last Stratum] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/the-tale-unfolds-opening",
+      answer: "The Tale Unfolds [Opening] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/cityscape-roadside-trees",
+      answer:
+        "Cityscape: Roadside Trees Outside the Window [Etrian Square: Day-1] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/the-tale-unfolds",
+      answer:
+        "The Tale Unfolds [Opening] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/scene-blood-and-darkness-event",
+      answer:
+        "Scene: Blood and Darkness [Event: Fear] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/the-end-of-your-adventure",
+      answer: "The End of Your Adventure [Ending 2] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/cityscape-thy-name-has-been",
+      answer:
+        "Cityscape: Thy Name Has Been Etched in the Hundredth Volume! [Explorers Guild] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/strife-rapture-normal-battle",
+      answer:
+        "Strife: Rapture [Normal Battle: Last Stratum] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/labyrinth-vi-claret-hollows",
+      answer:
+        "Labyrinth VI: Claret Hollows [6th Stratum Dungeon 26F~30F] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/scene-unknown-menace",
+      answer:
+        "Scene: Unknown Threat [Event: Tension] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/400-your-adventures-end",
+      answer:
+        "400: Your Adventures End [Ending 2] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/reminiscence-a-millennium-of-1",
+      answer:
+        "Reminiscence: A Millennium of Solitude [Event: Thoughts] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/cityscape-the-overwatching",
+      answer:
+        "Cityscape: The Overwatching Tree [Deep City Facility: Deep City Plaza (Night)] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/scene-viridian-and-silver",
+      answer:
+        "Scene: Viridian and Silver [Event: Truth] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/return-of-the-heroes-ending-1",
+      answer:
+        "Return of the Heroes [Ending 1] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/labyrinth-iii-frozen-grounds",
+      answer:
+        "Labyrinth III: Frozen Grounds [3rd Stratum Dungeon 11F~15F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/labyrinth-iii-azure-rainforest",
+      answer:
+        "Labyrinth III: Azure Rainforest [3rd Stratum Dungeon 11F~15F] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/townscape-a-town-embraced-by",
+      answer:
+        "Cityscape: The City Embraced by a Teal Sky [Town Plaza (Day)/Inn/Trading Post] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/emd2/infinite-foes-etrian-mystery",
+      answer: "Infinite Foes [Boss Battle] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/scene-viridian-and-silver",
+      answer:
+        "Scene: Viridian and Silver [Event: Truth] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/cityscape-land-spread-up-north",
+      answer:
+        "Cityscape: Land Spread Up North [Central City: Day] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/labyrinth-iv-sandy-barrens",
+      answer:
+        "Labyrinth IV: Sandy Barrens [4th Stratum Dungeon 16F~20F] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/town-source-of-the-morning-1",
+      answer:
+        "Cityscape: The Sun Rises for Ones Who Smile [Town Plaza (Day)/Inn] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/cityscape-cradle-of-the-lone-isle",
+      answer:
+        "Cityscape: Cradle of the Lone Isle [Town Plaza (Day)/Inn] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/400-your-adventures-end-ending",
+      answer: "400: Your Adventures End [Ending 2] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/emd2/sacred-mountains",
+      answer:
+        "Sacred Mountains [5th Labyrinth: Crystalline Peak] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/melancholy-each-their-own-1",
+      answer:
+        "Melancholy: Each Their Own Memories [Event: Sadness] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/battlefield-the-throne-of-heaven-and-earth",
+      answer:
+        "Battlefield: The Throne of Heaven and Earth [Last Boss Battle] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/war-the-legends-successor",
+      answer:
+        "Tumult: Inheritor of the Legend [Last Boss Battle] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/labyrinth-v-heavenly-keep",
+      answer:
+        "Labyrinth V: Heavenly Keep [5th Stratum Dungeon 21F~25F] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/emd2/beyond-the-scorching-heat",
+      answer:
+        "Beyond the Scorching Heat [7th Labyrinth: Muspelheim] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/overlord-zenon-xenonnia/etrian-odyssey-nexus-hoist-the",
+      answer:
+        "Tumult: Raise Thy Sword in Pride (Etrian Odyssey Nexus Ver.) [Boss Battle (4st Part)] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/emd2/a-storm-ahead",
+      answer:
+        "A Storm Ahead [4th Labyrinth: Haunted Woods] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/scene-wings-and-cherry",
+      answer:
+        "Scene: Wings and Cherry Blossoms [Event: Winged Man] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/labyrinth-vi-hall-of-darkness",
+      answer:
+        "Labyrinth VI: Hall of Darkness [6th Stratum Dungeon] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/labyrinth-ii-auburn-thicket",
+      answer:
+        "Labyrinth II: Auburn Thicket [2nd Stratum Dungeon 6F~10F] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/cityscape-the-deep-blue-ocean",
+      answer:
+        "Cityscape: The Deep Blue Ocean City [Deep City Facility: Deep City Plaza (Day)] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/strife-first-strike-normal",
+      answer:
+        "Strife: First Strike [Normal Battle: 1st Part] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/labyrinth-iv-abyssal-shrine",
+      answer:
+        "Labyrinth IV: Abyssal Shrine [4th Stratum Dungeon 16F~20F] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/to-the-stage-of-a-new-adventure",
+      answer:
+        "To the Stage of a New Adventure [Opening] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/labyrinth-v-lost-shinjuku",
+      answer:
+        "Labyrinth V: Lost Shinjuku [5th Stratum Dungeon 21F~25F] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/emd2/thy-name-has-been-etched-in",
+      answer:
+        "Thy Name Has Been Etched in the Hundredth Volume! [1st Labyrinth: Mysterious Labyrinth] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/emd2/the-gods-afflicted-etrian",
+      answer:
+        "The Gods Afflicted [Last Boss Battle] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/battlefield-raise-thy-swords-1",
+      answer:
+        "Battlefield: Raise Thy Swords [Normal Battle: Ginnungagap] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/heroes-are-born-and-the-story",
+      answer:
+        "Heroes are Born, And the Story Continues [Ending 1] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/dena-jones-205733218/etrian-odyssey-nexus-x-shop-mpguncom",
+      answer:
+        "Cityscape: The Dusk-clad Ocean City (Etrian Odyssey Nexus Ver.) [Town Plaza (Night)/Shop/Bar] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/minor-labyrinth-i-pioneering",
+      answer:
+        "Maze I: Path Worn by Explorers [1st Sub Dungeon] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/cityscape-the-bird-atop-the",
+      answer:
+        "Cityscape: The Bird Atop the Gable [Etria Plaza (Day 2)] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
       url: "https://soundcloud.com/beignet0/heroes-are-born-and-the-story",
       answer:
         "Heroes are Born, And the Story Continues [Ending 1] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/labyrinth-gladsheim-the-pulse-of-time",
+      answer:
+        "Labyrinth: Gladsheim: The Pulse of Time [New Dungeon: Gladsheim 5F] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/labyrinth-iii-golden-lair",
+      answer:
+        "Labyrinth III: Golden Lair [3rd Stratum Dungeon] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/emd2/bloodstained-sword-etrian",
+      answer:
+        "Bloodstained Sword [Lowest Last Boss Battle] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/on-an-adventure-flying-through",
+      answer:
+        "Adventures Across the Sky [Title Screen] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/petal-bridge",
+      answer: "Petal Bridge [10th Labyrinth: Utopia] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/labyrinth-iv-echoing-library",
+      answer:
+        "Labyrinth IV: Echoing Library [4th Stratum Dungeon] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/labyrinth-world-shrine",
+      answer:
+        "Labyrinth: World Shrine [Dungeon: World Shrine] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/battlefield-the-two-towers-ren",
+      answer:
+        "Battlefield: The Two Towers [Ren & Tlachtga Battle] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/strife-kill-or-be-killed",
+      answer:
+        "Strife: Kill or be Killed [Normal Battle: 2nd Part] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/scene-red-and-black-event-fear",
+      answer: "Scene: Red and Black [Event: Fear] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/cityscape-the-ones-engraved-in",
+      answer:
+        "Cityscape: The Ones Engraved in Legends [Guild] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/battlefield-gust-of-death-foe",
+      answer:
+        "Battlefield: Gust of Death [FOE Battle] - Etrian Odyssey 2: Heroes of Lagaard",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/battlefield-deaths-crossroad",
+      answer:
+        "Battlefield: Death's Crossroad [Normal Battle (9th Part)] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/labyrinth-v-lost-shinjuku",
+      answer:
+        "Labyrinth V: Lost Shinjuku [5th Stratum Dungeon 21F~25F] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/area-iv-cloudy-stronghold",
+      answer:
+        "Landscape IV: Cloudy Stronghold [4th Stratum Skies] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/cityscape-feast-with-reverence",
+      answer:
+        "Cityscape: Feast with Reverence [Radha Administration Hall] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/war-scatter-about-battle-bgm-7",
+      answer:
+        "Tumult: To Fall Is Fair [Dragons Boss Battle] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/cityscape-etch-thy-name-among-the-stars",
+      answer:
+        "Cityscape: Etch Thy Name among the Stars [Adventurer Guild] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/emd2/waterfall-wood",
+      answer:
+        "Waterfall Wood [3rd Labyrinth: Pristine Stream] - Etrian Mystery Dungeon",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/final-battle-the-future-of-the-world",
+      answer:
+        "Final Battle: The Future of the World [Last Boss Battle: Gladsheim] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/cityscape-prep-for-tomorrow",
+      answer:
+        "Cityscape: Prep for Tomorrow [Guild House] - Etrian Odyssey Untold: The Millennium Girl",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/unrest-lord-of-the-beyond",
+      answer:
+        "Battlefield: Roaming Ruler [Lowest Last Boss Battle] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/emd2/jungle-ruins-etrian-mystery",
+      answer: "Jungle Ruins [1st Labyrinth] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/cityscape-thy-name-has-been",
+      answer:
+        "Cityscape: Thy Name Has Been Etched in the Hundredth Volume! [Explorers Guild] - Etrian Odyssey 1",
+    },
+    {
+      url: "https://soundcloud.com/etrian5/labyrinth-iv-rainbow-druse",
+      answer:
+        "Labyrinth IV: Lucent Hollows [4th Stratum Dungeon 16F~20F] - Etrian Odyssey 5: Beyond the Myth",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/the-beginning-of-the-end",
+      answer:
+        "the beginning of the end [Town Opening Animation] - Etrian Odyssey Untold: The Millennium Girl",
     },
     {
       url: "https://soundcloud.com/5038p00iul/your-adventures-end",
@@ -1373,19 +1498,18 @@ var app = (function () {
       answer: "Until a New Dawn [Game Over] - Etrian Odyssey 1",
     },
     {
-      url: "https://soundcloud.com/5038p00iul/porcelain-forest",
+      url: "https://soundcloud.com/etrian5/town-waning-twins-party",
       answer:
-        "Porcelain Forest [8th Labyrinth: Forest of Gates] - Etrian Mystery Dungeon",
+        "Cityscape: End of the Twin's Banquet [Town Plaza (Night)/Shop/Bar] - Etrian Odyssey 5: Beyond the Myth",
     },
     {
-      url: "https://soundcloud.com/beignet1/strife-rapture-normal-battle",
+      url: "https://soundcloud.com/etrian5/battlefield-critical-1",
       answer:
-        "Strife: Rapture [Normal Battle: Last Stratum] - Etrian Odyssey 1",
+        "Battlefield: A Crucial Moment [FOE Battle] - Etrian Odyssey 5: Beyond the Myth",
     },
     {
-      url: "https://soundcloud.com/eo2u/labyrinth-ginnungagap",
-      answer:
-        "Labyrinth: Ginnungagap [New Dungeon: Ginnungagap 1F~4F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+      url: "https://soundcloud.com/emd2/molten-caves-etrian-mystery",
+      answer: "Molten Caves [3rd Labyrinth] - Etrian Mystery Dungeon 2",
     },
     {
       url: "https://soundcloud.com/beignet1/battlefield-the-first-battle",
@@ -1393,19 +1517,19 @@ var app = (function () {
         "Battlefield: The First Battle [Normal Battle: 1st Part (B01~08F)] - Etrian Odyssey 3: The Drowned City",
     },
     {
-      url: "https://soundcloud.com/beignet1/labyrinth-iv-sandy-barrens",
+      url: "https://soundcloud.com/beignet4/scene-the-silent-wind-blows",
       answer:
-        "Labyrinth IV: Sandy Barrens [4th Stratum Dungeon 16F~20F] - Etrian Odyssey 1",
+        "Scene: Wind in the Silence [Event: Truth] - Etrian Odyssey 4: Legends of the Titan",
     },
     {
-      url: "https://soundcloud.com/5038p00iul/scene-blood-and-darkness-event",
+      url: "https://soundcloud.com/eo2u/scene-blood-and-darkness",
       answer:
-        "Scene: Blood and Darkness [Event: Fear] - Etrian Odyssey 2: Heroes of Lagaard",
+        "Scene: Blood and Darkness [Event: Fear] - Etrian Odyssey 2 Untold: The Fafnir Knight",
     },
     {
-      url: "https://soundcloud.com/beignet0/cityscape-feast-with-reverence",
+      url: "https://soundcloud.com/beignet4/townscape-engraved-are-the",
       answer:
-        "Cityscape: Feast with Reverence [Radha Administration Hall] - Etrian Odyssey Untold: The Millennium Girl",
+        "Cityscape: Engraved Are Names That Echo to the Morrow [Explorer's Guild] - Etrian Odyssey 4: Legends of the Titan",
     },
     {
       url: "https://soundcloud.com/eo2u/labyrinth-v-heavenly-keep",
@@ -1413,24 +1537,14 @@ var app = (function () {
         "Labyrinth V: Heavenly Keep [5th Stratum Dungeon 21F~25F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
     },
     {
-      url: "https://soundcloud.com/beignet1/cityscape-the-deep-blue-ocean",
+      url: "https://soundcloud.com/beignet1/tumult-each-their-own-justice",
       answer:
-        "Cityscape: The Deep Blue Ocean City [Deep City Facility: Deep City Plaza (Day)] - Etrian Odyssey 3: The Drowned City",
+        "Tumult: Each Their Own Justice [Last Boss Battle] - Etrian Odyssey 3: The Drowned City",
     },
     {
-      url: "https://soundcloud.com/eo2u/labyrinth-the-deep-ends-of-1",
+      url: "https://soundcloud.com/5038p00iul/battlefield-perish-like-the-dew",
       answer:
-        "Labyrinth: The Deep Ends of Ginnungagap [New Dungeon: Ginnungagap 5F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/cityscape-seek-the-hidden-treasure",
-      answer:
-        "Cityscape: Seek the Hidden Treasure [Exploration HQ] - Etrian Odyssey Nexus",
-    },
-    {
-      url: "https://soundcloud.com/eo2u/scene-wings-and-cherry",
-      answer:
-        "Scene: Wings and Cherry Blossoms [Event: Winged Man] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+        "Battlefield: Perish Like the Dew [Normal Battle: Last Stratum] - Etrian Odyssey Origins Collection : Etrian Odyssey 3",
     },
     {
       url: "https://soundcloud.com/5038p00iul/scene-wings-and-cherry",
@@ -1438,119 +1552,113 @@ var app = (function () {
         "Scene: Wings and Cherry Blossoms [Event: Ones with Wings] - Etrian Odyssey 2: Heroes of Lagaard",
     },
     {
-      url: "https://soundcloud.com/beignet4/area-iii-sacred-mountains",
-      answer:
-        "Landscape III: Sacred Mountains [3rd Stratum Skies] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/cityscape-thy-name-has-been",
-      answer:
-        "Cityscape: Thy Name Has Been Etched in the Hundredth Volume! [Explorers Guild] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/battlefield-gust-of-death-foe",
-      answer:
-        "Battlefield: Gust of Death [FOE Battle] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/on-an-adventure-flying-through",
-      answer:
-        "Adventures Across the Sky [Title Screen] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/town-waning-twins-party",
-      answer:
-        "Cityscape: End of the Twin's Banquet [Town Plaza (Night)/Shop/Bar] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/beignet1/cityscape-lounge-with-talks-of",
-      answer:
-        "Cityscape: Lounge with Talks of Tomorrow [Etrian Square: Night] - Etrian Odyssey 1",
-    },
-    {
-      url: "https://soundcloud.com/beignet0/scene-blue-and-white",
-      answer:
-        "Scene: Blue and White [Event: Truth] - Etrian Odyssey Untold: The Millennium Girl",
-    },
-    {
-      url: "https://soundcloud.com/etrian5/unrest-ordeal-of-stars",
-      answer:
-        "Battlefield: Challenge of the Stars [Last Boss Battle] - Etrian Odyssey 5: Beyond the Myth",
-    },
-    {
-      url: "https://soundcloud.com/beignet4/war-scatter-about-battle-bgm-7",
-      answer:
-        "Tumult: To Fall Is Fair [Dragons Boss Battle] - Etrian Odyssey 4: Legends of the Titan",
-    },
-    {
-      url: "https://soundcloud.com/5038p00iul/battlefield-resonating-sounds",
-      answer:
-        "Battlefield: Resonating Sounds of Battle [Normal Battle: 2nd Part] - Etrian Odyssey 2: Heroes of Lagaard",
-    },
-    {
       url: "https://soundcloud.com/eo2u/battlefield-shudder",
       answer:
         "Battlefield: Shudder [Normal Battle: Last Stratum] - Etrian Odyssey 2 Untold: The Fafnir Knight",
     },
     {
-      url: "https://soundcloud.com/eo2u/cityscape-peaceful-dining",
+      url: "https://soundcloud.com/eo2u/battlefield-guardian-of-the",
       answer:
-        "Cityscape: Peaceful Dining [Guild House] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+        "Battlefield: Guardian of the Doleful Glacier [Artelinde & Wilhelm Battle] - Etrian Odyssey 2 Untold: The Fafnir Knight",
     },
     {
-      url: "https://soundcloud.com/beignet4/labyrinth-gladsheim-the-pulse-of-time",
+      url: "https://soundcloud.com/etrian5/labyrinth-vi-redshift-corridor",
       answer:
-        "Labyrinth: Gladsheim: The Pulse of Time [New Dungeon: Gladsheim 5F] - Etrian Odyssey Untold: The Millennium Girl",
+        "Labyrinth VI: Empyreal Bridge [6th Stratum Dungeon 26F~30F] - Etrian Odyssey 5: Beyond the Myth",
     },
     {
-      url: "https://soundcloud.com/eo2u/labyrinth-vi-forbidden-wood",
+      url: "https://soundcloud.com/etrian5/triumph-together-under-our-banner",
       answer:
-        "Labyrinth VI: Forbidden Wood [6th Stratum Dungeon 26F~30F] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+        "Alongside Proof of Attainment [Ending 1] - Etrian Odyssey 5: Beyond the Myth",
     },
     {
-      url: "https://soundcloud.com/5038p00iul/cityscape-the-wind-shall",
+      url: "https://soundcloud.com/5038p00iul/labyrinth-i-primitive-jungle",
       answer:
-        "Cityscape: The Wind Shall Summon Heroes [Central City: Night] - Etrian Odyssey 2: Heroes of Lagaard",
+        "Labyrinth I: Primitive Jungle [1st Stratum Dungeon 1F~5F] - Etrian Odyssey 2: Heroes of Lagaard",
     },
     {
-      url: "https://soundcloud.com/beignet1/labyrinth-iv-abyssal-shrine",
+      url: "https://soundcloud.com/beignet1/tumult-crest-of-a-violent-wave",
       answer:
-        "Labyrinth IV: Abyssal Shrine [4th Stratum Dungeon 16F~20F] - Etrian Odyssey 3: The Drowned City",
+        "Tumult: Crest of a Violent Wave [Great Voyage Quest Boss Battle] - Etrian Odyssey 3: The Drowned City",
     },
     {
-      url: "https://soundcloud.com/eo2u/cityscape-the-beautifully",
+      url: "https://soundcloud.com/beignet4/minor-labyrinth-ii-strange",
       answer:
-        "Cityscape: The Beautifully Noble Land [Lagaard Archduke Palace] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+        "Maze II: Forest Confounded by an Unknown Encounter [2nd Sub Dungeon] - Etrian Odyssey 4: Legends of the Titan",
     },
     {
-      url: "https://soundcloud.com/nekkoblue2/etrian-odyssey-nexus-foe",
+      url: "https://soundcloud.com/5038p00iul/battlefield-final-battle-final",
       answer:
-        "Battlefield: The Foolhardy are Bathed in Blood [FOE Battle (1st Part)] - Etrian Odyssey Nexus",
+        "Battlefield: Final Battle [Last Boss Battle: Part 1] - Etrian Odyssey 2: Heroes of Lagaard",
     },
     {
-      url: "https://soundcloud.com/beignet0/labyrinth-yggdrasil-labyrinth",
+      url: "https://soundcloud.com/pepito-x/etrian-odyssey-nexus-x-final",
       answer:
-        "Labyrinth: Yggdrasil Labyrinth [Dungeon: Yggdrasil Labyrinth] - Etrian Odyssey Nexus",
+        "Tumult: Twilight of All Life [Last Boss Battle] - Etrian Odyssey Nexus",
     },
     {
-      url: "https://soundcloud.com/5038p00iul/labyrinth-ii-auburn-thicket",
+      url: "https://soundcloud.com/emd2/auburn-thicket",
       answer:
-        "Labyrinth II: Auburn Thicket [2nd Stratum Dungeon 6F~10F] - Etrian Odyssey 2: Heroes of Lagaard",
+        "Auburn Thicket [2nd Labyrinth: Emerald Copse] - Etrian Mystery Dungeon",
     },
     {
-      url: "https://soundcloud.com/etrian5/labyrinth-i-guardian-spirits-1",
+      url: "https://soundcloud.com/5038p00iul/labyrinth-vi-forbidden-wood",
       answer:
-        "Labyrinth I: Tutelary Forest [1st Stratum Dungeon 1F~5F] - Etrian Odyssey 5: Beyond the Myth",
+        "Labyrinth VI: Forbidden Wood [6th Stratum Dungeon 26F~30F] - Etrian Odyssey 2: Heroes of Lagaard",
     },
     {
-      url: "https://soundcloud.com/beignet1/battlefield-those-who-fall",
+      url: "https://soundcloud.com/beignet1/cityscape-the-king-lost-in",
       answer:
-        "Battlefield: Those Who Fall [Normal Battle: 2nd Part (B09~25F)] - Etrian Odyssey 3: The Drowned City",
+        "Cityscape: The King Lost in Time [Deep City Facility: Celestial Palace] - Etrian Odyssey 3: The Drowned City",
     },
     {
-      url: "https://soundcloud.com/beignet1/scene-cold-justice",
+      url: "https://soundcloud.com/beignet4/area-i-windy-plains-chapter-1",
       answer:
-        "Scene: Cold Justice [Event: Truth] - Etrian Odyssey 3: The Drowned City",
+        "Landscape I: Windy Plains [1st Stratum Skies] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/area-iii-sacred-mountains",
+      answer:
+        "Landscape III: Sacred Mountains [3rd Stratum Skies] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/emd2/those-who-heed-the-call-etrian",
+      answer: "Those Who Heed the Call [Opening] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/beignet0/battlefield-dye-the-mad-with-blood",
+      answer:
+        "Battlefield: Dye the Mad with Blood [FOE Battle (6th Part)] - Etrian Odyssey Nexus",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/labyrinth-v-porcelain-forest",
+      answer:
+        "Labyrinth V: Porcelain Forest [5th Stratum Dungeon 17F~20F] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/beignet1/labyrinth-i-waterfall-wood",
+      answer:
+        "Labyrinth I: Waterfall Wood [1st Stratum Dungeon 1F~4F] - Etrian Odyssey 3: The Drowned City",
+    },
+    {
+      url: "https://soundcloud.com/emd2/ancient-circuitry-etrian",
+      answer:
+        "Ancient Circuitry [9th Labyrinth: 1st Part] - Etrian Mystery Dungeon 2",
+    },
+    {
+      url: "https://soundcloud.com/beignet4/labyrinth-i-lush-woodlands",
+      answer:
+        "Labyrinth I: Lush Woodlands [1st Stratum Dungeon] - Etrian Odyssey 4: Legends of the Titan",
+    },
+    {
+      url: "https://soundcloud.com/eo2u/battlefield-the-final-battle",
+      answer:
+        "Battlefield: The Final Battle [Last Boss Battle: Part 1] - Etrian Odyssey 2 Untold: The Fafnir Knight",
+    },
+    {
+      url: "https://soundcloud.com/5038p00iul/porcelain-forest",
+      answer:
+        "Porcelain Forest [8th Labyrinth: Forest of Gates] - Etrian Mystery Dungeon",
     },
   ];
 
@@ -5418,7 +5526,7 @@ var app = (function () {
             artist +
             " Heardle is randomly chosen from " +
             artist +
-            '\'s soundtrack (except Etrian Mystery Dungeon 2).</p> \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/etrian-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
+            '\'s soundtrack.</p> \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/etrian-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {

@@ -1,6 +1,6 @@
-version="V1.7_(Remove_silence)"
+version="V1.8_(EMD2)"
 
 filename="etrian-heardle_"$version
 
 git archive --prefix=$filename/ --format=zip --output=$filename.zip -9 HEAD
-cp $filename.zip ./archive/$filename.zip
+mv $filename.zip ./archive/$filename.zip

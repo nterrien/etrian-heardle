@@ -272,7 +272,7 @@ var app = (function () {
     "Ancient Circuitry [9th Labyrinth: 1st Part] - Etrian Mystery Dungeon 2",
     "Creeping Decay [9th Labyrinth: 2nd Part] - Etrian Mystery Dungeon 2",
     "Infinite Foes [Boss Battle] - Etrian Mystery Dungeon 2",
-    "Illusory Showdown [Nadika Battle] - Etrian Mystery Dungeon 2",
+    "Illusory Showdown [Nadhica Battle] - Etrian Mystery Dungeon 2",
     "The Gods Afflicted [Last Boss Battle] - Etrian Mystery Dungeon 2",
     "Bloodstained Sword [Lowest Last Boss Battle] - Etrian Mystery Dungeon 2",
     "The Curtain Falls on the Adventure [Ending] - Etrian Mystery Dungeon 2",
@@ -981,7 +981,7 @@ var app = (function () {
     },
     {
       url: "https://soundcloud.com/emd2/illusory-showdown-etrian",
-      answer: "Illusory Showdown [Nadika Battle] - Etrian Mystery Dungeon 2",
+      answer: "Illusory Showdown [Nadhica Battle] - Etrian Mystery Dungeon 2",
     },
     {
       url: "https://soundcloud.com/beignet4/battlefield-faith-is-my-pillar",
@@ -11611,3 +11611,4 @@ var app = (function () {
     props: {},
   });
 })();
+

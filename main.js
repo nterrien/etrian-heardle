@@ -1,7 +1,7 @@
 var app = (function () {
   var artist = "Etrian Odyssey";
   var twitter = "";
-  var previousStartDate = "2022-07-31"; // Original Start Date, only used to know the number of the current heardle
+  var originalStartDate = "2022-07-31"; // Original Start Date, only used to know the number of the current heardle
   var startDate = "2023-12-23"; // Date to change when there is no more music
 
   var musicNameList = [
@@ -2634,6 +2634,40 @@ var app = (function () {
     let t, n, r, s;
     const i = e[3].default,
       o = c(i, e, e[2], null);
+    let aria = "";
+    // I didn't find how to reuse the names of the popup
+    switch (i[0].name) {
+      case "ge":
+        aria = "About";
+        break;
+      case "ye":
+        aria = "Support";
+        break;
+      case "ve":
+        aria = "Stats";
+        break;
+      case "we":
+        aria = "How to play";
+        break;
+      case "mListIco":
+        aria = "Music List";
+        break;
+      case "Mt":
+        aria = "Skip";
+        break;
+      case "$t":
+        aria = "Submit";
+        break;
+      case "ht":
+        aria = "Play/Pause";
+        break;
+      case "dn":
+        aria = "Share";
+        break;
+      case "pn":
+        aria = "Play";
+        break;
+    }
     return {
       c() {
         (t = w("button")),
@@ -2643,6 +2677,7 @@ var app = (function () {
             "class",
             "px-2 py-2 uppercase tracking-widest bg-custom-mg border-none flex items-center font-semibold text-sm svelte-1r54uzk"
           ),
+          M(t, "aria-label", aria),
           Y(t, "bg-custom-positive", e[0]),
           Y(t, "bg-custom-mg", e[1]);
       },
@@ -6381,25 +6416,9 @@ var app = (function () {
     );
   }
 
-  function jt(e, t, n) {
-    let r;
-    return (
-      P(async function () {
-        (async function () {
-          const e = await fetch(
-            "https://wjsn-heardle.glitch.me/supporters.json"
-          );
-          return await e.json();
-        })().then((e) => {
-          n(0, (r = e.supporters));
-        });
-      }),
-      [r]
-    );
-  }
   class Bt extends se {
     constructor(e) {
-      super(), re(this, e, jt, Et, i, {});
+      super(), re(this, e, null, Et, i, {});
     }
   }
 
@@ -12007,7 +12026,7 @@ var app = (function () {
         hasFinished: !1,
         hasStarted: !1,
       };
-    numberDaySinceStart = x(previousStartDate);
+    numberDaySinceStart = x(originalStartDate);
     // console.log("a", l);
     var c, d;
     void 0 !== document.hidden

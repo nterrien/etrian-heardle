@@ -1,4 +1,4 @@
-version="V1.14"
+version="V1.15"
 
 filename="etrian-heardle_"$version
 

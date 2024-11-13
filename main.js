@@ -1026,7 +1026,7 @@ var app = (function () {
     },
     {
       id: 249,
-      name: "Illusory Showdown [Nadhica Battle] - Etrian Mystery Dungeon 2",
+      name: "Illusory Showdown [Nadhica Boss Battle] - Etrian Mystery Dungeon 2",
     },
     {
       id: 250,

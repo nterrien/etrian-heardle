@@ -6169,7 +6169,9 @@ var app = (function () {
             artist +
             " Heardle is randomly chosen from " +
             artist +
-            '\'s soundtrack.</p> \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/etrian-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
+            '\'s soundtrack.</p><p class="mb-3">If you played before ' +
+            startDate +
+            ' and didn\'t clear your local storage, the stats "Current Streak" and "Max Streak" might be broken until you clear the local storage.</p><p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/etrian-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -7639,6 +7641,8 @@ var app = (function () {
     if (r.length > 0) {
       l = !0;
       for (let e = 0; e < a + 1; e++) d.push(0);
+      // TODO: If i want to fix the streak number it has to be done here.
+      // replacing id with heardleNumber fix the maxStreak but break the current streak even more
       for (let e in r)
         !0 === r[e].hasFinished &&
           (++u,
@@ -12017,16 +12021,17 @@ var app = (function () {
   function jn(e, t, n) {
     let r, s, i, o;
     u(e, Cn, (e) => n(26, (r = e))), u(e, On, (e) => n(27, (s = e)));
+    numberDaySinceStart = x(originalStartDate);
     let a = x(Vt.startDate),
       l = {
         url: s[a].url,
         correctAnswer: s[a].answer,
         id: a,
+        heardleNumber: numberDaySinceStart,
         guessList: [],
         hasFinished: !1,
         hasStarted: !1,
       };
-    numberDaySinceStart = x(originalStartDate);
     // console.log("a", l);
     var c, d;
     void 0 !== document.hidden
@@ -12057,7 +12062,7 @@ var app = (function () {
     null == localStorage.getItem("userStats")
       ? ((h = []), localStorage.setItem("userStats", JSON.stringify(h)))
       : (h = JSON.parse(localStorage.getItem("userStats"))),
-      (f = h.find((e) => e.id === l.id)),
+      (f = h.find((e) => e.heardleNumber === l.heardleNumber)),
       void 0 === f &&
         ((f = l),
         h.push(f),
@@ -12114,8 +12119,6 @@ var app = (function () {
           n(2, (l.title = musicString["name"].split(" - ")[0]), l),
           n(2, (l.img = t.artwork_url), l),
           n(2, (l.duration = t.duration), l),
-          n(2, (l.genre = t.genre), l),
-          n(2, (l.date = t.release_date), l),
           (function (e, t, n) {
             e.set(n);
           })(Cn, (r = [...r, l.correctAnswer]), r),

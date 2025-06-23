@@ -1,6 +1,6 @@
 # etrian-heardle
 
-A clone of [Heardle](https://www.heardle.app/), and [K-Pop Heardle](https://heardle-kpop.glitch.me/) but for Etrian Odyssey mucis. Based on [Joywave Heardle](https://joywave-heardle.glitch.me/)
+A clone of [Heardle](https://www.heardle.app/), and [K-Pop Heardle](https://heardle-kpop.glitch.me/) but for Etrian Odyssey musics. Based on [Joywave Heardle](https://joywave-heardle.glitch.me/). The code for daily seeded RNG come from [Pokémon Mystery Dungeon Heardle](https://pkmn-md-heardle.glitch.me/).
 
 Each Etrian Odyssey Heardle is randomly chosen from Etrian Odyssey's OST.
 

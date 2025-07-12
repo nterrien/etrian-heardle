@@ -6182,7 +6182,7 @@ var app = (function () {
   function Nt(t) {
     let n;
     const diff =
-      Yn().diff(Yn("2025-06-24", "YYYY-MM-DD"), "days") %
+      Yn().diff(Yn("2026-03-26", "YYYY-MM-DD"), "days") %
       musicListWithLinks.length;
     let dateBeforeBugStreak = Yn().subtract(diff, "days").format("YYYY-MM-DD");
     return {
@@ -6195,9 +6195,10 @@ var app = (function () {
             artist +
             " Heardle is randomly chosen from " +
             artist +
-            '\'s soundtrack.</p><p class="mb-3">If you played before ' +
-            dateBeforeBugStreak +
-            ' and didn\'t clear your local storage, the stats "Current Streak" and "Max Streak" might be broken until you clear the local storage.</p><p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/etrian-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
+            '\'s soundtrack.</p>'+
+            (diff > 0 ? '<p class="mb-3">If you played before ' + dateBeforeBugStreak +
+            ' and didn\'t clear your local storage, the stats "Current Streak" and "Max Streak" might be broken until you clear the local storage.</p>' : "") 
+            + '<p class="mb-3">Want to make your own Heardle? Check out the <a href="https://github.com/nterrien/etrian-heardle">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://github.com/">Github</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -6460,7 +6461,7 @@ var app = (function () {
           (n = w("p")),
             (s = w("p")),
             (n.innerHTML =
-              'Have questions/run into bugs? DM Beignet0 on Reddit, beignetSan on Twitch, @beignet0.bsky.social on Bluesky or beignet1139 on Discord!<br><br>Don\'t want to wait until tomorrow? You can also play infinitely to <a href="https://etrian-infinite-heardle.glitch.me/" title="Etrian Odyssey Infinite Heardle">Etrian Odyssey Infinite Heardle</a>.'),
+              'Have questions/run into bugs? DM Beignet0 on Reddit, beignetSan on Twitch, @beignet0.bsky.social on Bluesky, beignet1139 on Discord or create an issue in <a href="https://github.com/nterrien/etrian-heardle/issues" target="_blank">Github</a>!<br><br>Don\'t want to wait until tomorrow? You can also play infinitely to <a href="https://nterrien.github.io/etrian-infinite-heardle/" title="Etrian Odyssey Infinite Heardle">Etrian Odyssey Infinite Heardle</a>.'),
             (r = x()),
             (s = w("p")),
             (i = x()),
@@ -7101,8 +7102,7 @@ var app = (function () {
               : "Failed today's " + artist + " Heardle") +
             "\n\n" +
             t;
-          // + "\n\n";
-          // + "https://etrian-heardle.glitch.me/"
+          // + "\n\nhttps://nterrien.github.io/etrian-heardle/"
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(

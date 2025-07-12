@@ -26,12 +26,8 @@ HOW TO MAKE YOUR OWN HEARDLE (UDPATED on **25/07/12**)
 7. On line **2** of **main.js** file and update **artist** with the **artist/genre** of your heardle - This will update all the text boxes & titles where "Etrian Odyssey" shows up up.
 8. On line **3** of **main.js**, update the **startDate** to the current date in the format **YEAR-MONTH-DAY (YYYY-MM-DD)** - This will start the counter for your Heardle.
 9. On line **6** of **main.js**, "var **musicNameList**" is initialized. Replace the text with a list of {id: number, name: "music title"}, name being the music titles that you want to show up as options in your Heardle and id an unique number for the music. Music titles should follow the format **"music - Artist/Game".** Make sure each music is in quotes and has a comma after it.
-10. On line **1157** of **main.js**, "var **musicListWithLinks**" is initialized. Here you'll have to replace the links with links to your musics. Only Soundcloud links at the moment. Each link will have to follow the following format:
-   **`{ url: "<link>", answer: id of the music },`**
-
-   Make sure to have **at least 10 musics** in your lists otherwise you'll run into issues with the search bar!
-11. If you want your heardle link to show up whenever someone shares their results, around **line 7104** remove the "**//**" and update the link with your own heardle link.
-    If you're having trouble finding the link since the line numbers probably changed after you edit the code, you can search for **"https://nterrien.github.io/etrian-heardle/"** !
+10. On line **1157** of **main.js**, "var **musicListWithLinks**" is initialized. Here you'll have to replace the links with links to your musics. Only Soundcloud links at the moment. Each link will have to follow the following format: **`{ url: "<link>", answer: id of the music },`** Make sure to have **at least 10 musics** in your lists otherwise you'll run into issues with the search bar!
+11. If you don't want your heardle link to show up whenever someone shares their results, around **line 7104** add a "**//**" before "+ "\n\n". If you want your heardle link to show up, update the link with your own heardle link. If you're having trouble finding the line since the line numbers probably changed after you edit the code, you can search for **"https://nterrien.github.io/etrian-heardle/"** !
 12. If you want to edit the text in the **info button (About)** on the top left, around **line 6192** you can update the text that shows up there. Search for **"A clone of..."** to find the line easier.
 13. If you want to edit the text in the **heart button (Support)** next to the info button, around **line 6463** you can update the text that shows up there. Search for **"Have questions..."** to find the line easier.
 

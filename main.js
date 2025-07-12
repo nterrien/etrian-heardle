@@ -7101,8 +7101,7 @@ var app = (function () {
                 (seconds > 1 ? "s" : "")
               : "Failed today's " + artist + " Heardle") +
             "\n\n" +
-            t;
-          // + "\n\nhttps://nterrien.github.io/etrian-heardle/"
+            t + "\n\nhttps://nterrien.github.io/etrian-heardle/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(

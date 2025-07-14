@@ -4,7 +4,7 @@ A clone of [Heardle](https://www.heardle.app/), and [K-Pop Heardle](https://hear
 
 Each music is randomly chosen from Etrian Odyssey's soundtrack to appear only once. If every music is used once, the game automatically resets and every music appears once again in a different order. The code for daily seeded RNG come from [Pokémon Mystery Dungeon Heardle](https://pkmn-md-heardle.glitch.me/).
 
-code edited from: [WJSN Heardle](https://github.com/haseul/wjsn-heardle)
+code edited from: [WJSN Heardle](https://github.com/jeroldcamacho/wjsn-heardle)
 <br />
 <br />
 HOW TO RUN HEARDLE LOCALLY:

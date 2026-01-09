@@ -15,10 +15,10 @@ HOW TO MAKE YOUR OWN HEARDLE (UDPATED on **25/07/12**)
 (If you want an Heardle that includes translations you can check the readme of [Pokémon Heardle](https://github.com/nterrien/pkmn-heardle))
 
 1. **Fork this project** to create your own copy of the code
-2. **Rename the project** with the URL that you'd like to Heardle to live at, by going to **Settings >  Repository name**
+2. **Rename the project** with the URL that you'd like to Heardle to live at, by going to **Settings > Repository name**
 3. Use Github as host by going to **Settings > Pages**. In Source, choose "Deploy from a branch" and in branch choose "master".
 4. Open the **index.html** file & replace **"Etrian Odyssey"** with the artist/genre of your heardle. Make sure to **do this first**, if you update the main.js first, sometimes your link will still show Etrian Odyssey even after you update everything.
-5. In the **index.html** file, you can update the image that gets shared with your link by updating lines **17-19**. 
+5. In the **index.html** file, you can update the image that gets shared with your link by updating lines **29-40**.
 6. You can update the icon in your browser's tab by updating the favicon.png image.
 
 (Items 7-13 are all edits to the **main.js file**)

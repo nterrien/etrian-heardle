@@ -36,7 +36,6 @@ HOW TO MAKE YOUR OWN HEARDLE (UDPATED on **25/07/12**)
 - Sometimes when you share your link to twitter, the image you added doesnt show up, even if you've updated the image link. The original creator thinks its a twitter issue and not a code issue.
 
 - This code is specific to Soundcloud links.
-
   - There is a [youtube](https://glitch.com/~youtube-heardle-template) \[NOTE: this link doesn't work anymore\] version, but its very basic and may have bugs; youtube links can be weird depending on your location, so it messes things up.
 
   - If you want to use a Spotify playlist, visit [https://audial.mogdan.xyz/custom](https://audial.mogdan.xyz/custom). You'll be able to add a link to your playlist and it seems to work similarly to Heardle.

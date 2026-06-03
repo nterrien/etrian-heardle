@@ -338,6 +338,10 @@ var musicListWithLinks = [
         answer: 82,
     },
     {
+        url: "https://soundcloud.com/beignet4/townscape-margheritas",
+        answer: 275,
+    },
+    {
         url: "https://soundcloud.com/beignet4/area-ii-scarlet-pillars",
         answer: 83,
     },
@@ -356,6 +360,10 @@ var musicListWithLinks = [
     {
         url: "https://soundcloud.com/beignet4/labyrinth-iii-golden-lair",
         answer: 87,
+    },
+    {
+        url: "https://soundcloud.com/beignet4/scene-imminent-calamity",
+        answer: 276,
     },
     {
         url: "https://soundcloud.com/beignet4/battlefield-one-step-from",

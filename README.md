@@ -7,12 +7,18 @@ Each music is randomly chosen from Etrian Odyssey's soundtrack to appear only on
 code edited from: [WJSN Heardle](https://github.com/jeroldcamacho/wjsn-heardle)
 <br />
 <br />
-HOW TO RUN HEARDLE LOCALLY:
+
+## How to run Heardle locally:
+
 Open **index.html** with your browser (Firefox, Chromium)
 <br />
 <br />
-HOW TO MAKE YOUR OWN HEARDLE (UDPATED on **25/07/12**)
-(If you want an Heardle that includes translations you can check the readme of [Pokémon Heardle](https://github.com/nterrien/pkmn-heardle))
+
+## How to make your own Heardle (Updated on **2026/06/04**)
+
+(If you want an Heardle that includes translations you can check the readme of [Pokémon Heardle](https://github.com/nterrien/pkmn-heardle).)
+
+### I recommand checking the branch [no-unofficial-names](https://github.com/nterrien/etrian-heardle/tree/no-unofficial-names) instead of this one to remove the unofficial names that is a need really specific to this game.
 
 1. **Fork this project** to create your own copy of the code
 2. **Rename the project** with the URL that you'd like to Heardle to live at, by going to **Settings > Repository name**

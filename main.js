@@ -11,12 +11,23 @@ var app = (function () {
     new Array(musicNameList.length).fill({
       id: -1,
       name: "",
+      help: "",
+      game: "",
+      unofficial: "",
     })
   );
 
   // To store userStats in a different place if several heardles are hosted in the same domain
   const url = window.location.href.replace(/^\/+|\/+$/g, '').split("/")
   const userStatsPrefix = url[url.length - 1] + "-userStats"
+
+  const namesNotUsedLocationStorage = url + "-namesNotUsed"
+  let namesNotUsed = [];
+  if (localStorage.getItem(namesNotUsedLocationStorage)) {
+    namesNotUsed = JSON.parse(localStorage.getItem(namesNotUsedLocationStorage));
+  } else {
+    namesNotUsed = [1]
+  }
 
   // seeded random algorithm
   function mulberry32(i) {
@@ -49,6 +60,11 @@ var app = (function () {
   ("use strict");
 
   function e() { }
+
+  function saveNamesNotUsed(names) {
+    namesNotUsed = names;
+    localStorage.setItem(namesNotUsedLocationStorage, JSON.stringify(names));
+  }
 
   function t(e) {
     return e();
@@ -450,6 +466,9 @@ var app = (function () {
       case "pn":
         aria = "Play";
         break;
+      case "settingsIco":
+        aria = "Settings";
+        break;
     }
     return {
       c() {
@@ -818,8 +837,34 @@ var app = (function () {
     };
   }
 
+  function settingsIco(e) {
+    let t, r;
+    return {
+      c() {
+        (t = k("svg")),
+          (r = k("path")),
+          M(
+            r,
+            "d",
+            "m 0.21064201,0.16384524 -0.060461,-0.0254377 c -0.0125241,-0.005265 -0.0271453,-0.002378 -0.0364852,0.007208 C 0.07020427,0.19025183 0.03781367,0.24377014 0.01895607,0.30215 0.01488027,0.3147471 0.01954683,0.3284313 0.03062943,0.33625 L 0.0840516,0.3740414 c 0.01525925,0.0107628 0.02445733,0.0278213 0.02445733,0.0459668 0,0.0181399 -0.0091981,0.0351984 -0.02442187,0.0459442 L 0.03071213,0.5037268 C 0.01965911,0.5115518 0.01498024,0.5252353 0.01904472,0.5378211 0.03790758,0.596214 0.07031649,0.64973739 0.11383285,0.69436517 c 0.009346,0.009591 0.0239788,0.0124669 0.0365029,0.007185 l 0.0602159,-0.0253981 c 0.007538,-0.003227 0.0156018,-0.004813 0.0237543,-0.004813 0.0303354,3.057e-5 0.0557852,0.0219501 0.0590964,0.0508924 l 0.00732,0.063032 c 0.001536,0.0131463 0.0115789,0.0239091 0.0250304,0.0267909 0.0307961,0.006596 0.0622321,0.0100947 0.0937874,0.0104457 0.0323381,-3.5725e-4 0.063807,-0.00385 0.0946446,-0.0104401 0.0134515,-0.002887 0.0235181,-0.0136389 0.0250422,-0.0267909 l 0.007314,-0.0629839 c 0.002127,-0.018021 0.0129908,-0.0340378 0.029337,-0.0431416 0.016423,-0.009211 0.0363375,-0.0103155 0.0536643,-0.003001 l 0.0602052,0.0253981 c 0.0125241,0.005265 0.0271571,0.002378 0.0365087,-0.007185 0.0435151,-0.044625 0.0759253,-0.0981512 0.0947881,-0.15654294 0.004076,-0.0125972 -5.9072e-4,-0.0262926 -0.0116851,-0.0341114 l -0.0534222,-0.0377519 c -0.0152475,-0.0107514 -0.0242387,-0.0278156 -0.0242387,-0.0459555 0,-0.0181399 0.008991,-0.0351984 0.0242152,-0.0459384 l 0.0534517,-0.0378141 c 0.0110472,-0.007813 0.0157377,-0.0214916 0.0116793,-0.0340774 -0.0188274,-0.0584439 -0.0512245,-0.11202726 -0.0947373,-0.15671563 -0.00934,-0.009591 -0.023967,-0.0124839 -0.036491,-0.007213 l -0.0604746,0.0254433 c -0.0172383,0.00723 -0.03707,0.006166 -0.0534044,-0.002887 -0.0163344,-0.009042 -0.027228,-0.0249904 -0.0293606,-0.0429718 l -0.00726,-0.06293186 c -0.001477,-0.01299911 -0.0113425,-0.02368825 -0.0245873,-0.02671726 -0.0622706,-0.01422771 -0.12715158,-0.01422771 -0.18942209,0 -0.0132447,0.0030005 -0.0230868,0.01371815 -0.0245873,0.02671726 l -0.007266,0.06302242 c -0.002068,0.018021 -0.0125004,0.0340207 -0.0288526,0.0430907 -0.0163463,0.00907 -0.0366624,0.0101343 -0.0539597,0.002887 z M 0.4200004,0.28581772 c 0.0773165,0 0.13999641,0.0600705 0.13999641,0.1341682 0,0.0740983 -0.06268,0.13416873 -0.13999641,0.13416873 -0.0773165,0 -0.13999701,-0.0600705 -0.13999701,-0.13416873 0,-0.0740977 0.0626805,-0.1341682 0.13999701,-0.1341682 z"
+          ),
+          M(t, "xmlns", "http://www.w3.org/2000/svg"),
+          M(t, "width", "24"),
+          M(t, "height", "24"),
+          M(t, "viewBox", "0 0 0.84 0.84"),
+          M(t, "fill", "white");
+      },
+      m(e, i) {
+        g(e, t, i), p(t, r);
+      },
+      d(e) {
+        e && y(t);
+      },
+    };
+  }
+
   function ke(e) {
-    let t, n, r, s, i, o, a, l, u, c, d, h, f, m, b, ml, v;
+    let t, n, r, s, i, o, a, l, u, c, d, h, f, m, b, ml, bSetting, mSetting, v;
     return (
       (i = new ae({
         props: {
@@ -876,6 +921,17 @@ var app = (function () {
         },
       })),
       ml.$on("click", e[5]),
+      (mSetting = new ae({
+        props: {
+          $$slots: {
+            default: [settingsIco],
+          },
+          $$scope: {
+            ctx: e,
+          },
+        },
+      })),
+      mSetting.$on("click", e[6]),
       {
         c() {
           (t = w("header")),
@@ -895,6 +951,8 @@ var app = (function () {
             Q(m.$$.fragment),
             (b = x()),
             Q(ml.$$.fragment),
+            (bSetting = x()),
+            Q(mSetting.$$.fragment),
             M(s, "class", "flex flex-1"),
             M(
               u,
@@ -918,13 +976,15 @@ var app = (function () {
             ee(i, s, null),
             p(s, o),
             ee(a, s, null),
+            p(s, f),
+            ee(m, s, null),
             p(r, l),
             p(r, u),
             p(r, c),
             p(r, d),
             ee(h, d, null),
-            p(d, f),
-            ee(m, d, null),
+            p(d, bSetting),
+            ee(mSetting, d, null),
             p(d, b),
             ee(ml, d, null),
             (v = !0);
@@ -965,6 +1025,13 @@ var app = (function () {
               ctx: e,
             }),
             ml.$set(z);
+          const zSetting = {};
+          64 & t &&
+            (zSetting.$$scope = {
+              dirty: t,
+              ctx: e,
+            }),
+            mSetting.$set(zSetting);
         },
         i(e) {
           v ||
@@ -973,6 +1040,7 @@ var app = (function () {
               Z(h.$$.fragment, e),
               Z(m.$$.fragment, e),
               Z(ml.$$.fragment, e),
+              Z(mSetting.$$.fragment, e),
               (v = !0));
         },
         o(e) {
@@ -981,10 +1049,11 @@ var app = (function () {
             q(h.$$.fragment, e),
             q(m.$$.fragment, e),
             q(ml.$$.fragment, e),
+            q(mSetting.$$.fragment, e),
             (v = !1);
         },
         d(e) {
-          e && y(t), te(i), te(a), te(h), te(m), te(ml);
+          e && y(t), te(i), te(a), te(h), te(m), te(ml), te(mSetting);
         },
       }
     );
@@ -1030,6 +1099,12 @@ var app = (function () {
         n("music-list", "music list"),
           pe("clickMusicList", {
             name: "clickMusicList",
+          });
+      },
+      () => {
+        n("Settings", "Settings"),
+          pe("clickSetting", {
+            name: "clickSetting",
           });
       },
     ];
@@ -3016,7 +3091,7 @@ var app = (function () {
             s = [];
           n.store.forEach(function (o, a) {
             var l = function (n) {
-              var i = n ? o["name"][n] : o["name"],
+              var i = n ? getName(o)[n] : getName(o),
                 a =
                   "function" == typeof r
                     ? r(e, i)
@@ -3119,7 +3194,7 @@ var app = (function () {
           );
           e.feedback.selection = {
             index: selection.index,
-            value: selection.value["name"],
+            value: getName(selection.value),
             match: selection.match,
           };
         },
@@ -3778,10 +3853,10 @@ var app = (function () {
                 .getElementById("autoComplete")
                 .value.toLowerCase();
               return (e = e.sort((e, n) => {
-                let r = xt(t, e.value["name"].toLowerCase()),
-                  s = xt(t, n.value["name"].toLowerCase());
+                let r = xt(t, getName(e.value).toLowerCase()),
+                  s = xt(t, getName(n.value).toLowerCase());
                 return r === s
-                  ? e.value["name"] > n.value["name"]
+                  ? getName(e.value) > getName(n.value)
                     ? -1
                     : 1
                   : s > r
@@ -3997,7 +4072,12 @@ var app = (function () {
               : M(
                 i,
                 "class",
-                "pointer-events-auto modal max-w-screen-xs w-full mx-auto top-20 relative rounded-sm "
+                "pointer-events-auto modal w-full limit-height mx-auto top-20 relative rounded-sm " +
+                (e[0] == "Settings"
+                  ? "max-w-screen-md"
+                  : e[0] == "about"
+                    ? "max-w-screen-sm"
+                    : "max-w-screen-xs")
               ),
             M(i, "role", "dialog"),
             M(i, "aria-modal", "true"),
@@ -4122,7 +4202,8 @@ var app = (function () {
             artist +
             " Heardle is randomly chosen from " +
             artist +
-            '\'s soundtrack.</p>' +
+            '\'s soundtrack.</p> \n\n' +
+            '<p class="mb-3">The list of musics and officials names come from <a href="https://vgmdb.net/" title="VGMdb">VGMdb</a>. Unofficial names are names used before Etrian Odyssey OST had official translations. They were translated by fans and shared by users such as <a href="https://www.youtube.com/@Banim">Banim</a> and <a href="https://www.youtube.com/@TheFabulousTroupe">TheFabulousTroupe</a>.</p>' +
             (diff > 0 ? '<p class="mb-3">If you played before ' + dateBeforeBugStreak +
               ' and didn\'t clear your local storage, the stats "Current Streak" and "Max Streak" might be broken until you clear the local storage.</p>' : "")
             + '<p class="mb-3">Want to make your own Heardle? Check out the <a href="https://github.com/nterrien/etrian-heardle">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://github.com/">Github</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
@@ -4145,11 +4226,21 @@ var app = (function () {
     }
   }
 
+  function getName(music) {
+    let names = []
+    if (!namesNotUsed.includes(0)) {
+      names.push(music.name)
+    }
+    if (!namesNotUsed.includes(1)) {
+      names.push(music.unofficial)
+    }
+    return [...new Set(names)].join("/") + " [" + music.help + "] - " + music.game
+  }
+
   function getGameOrArtistFromMusicName(musicNameList) {
-    return musicNameList.map((a) => {
-      const splited = a.name.split("-");
-      return splited[splited.length - 1].trim();
-    });
+    return musicNameList
+      .map((a) => a.game)
+      .filter((m) => m.length > 0);
   }
 
   function MLt(t) {
@@ -4179,7 +4270,7 @@ var app = (function () {
                   '><a target="_blank" href="' +
                   mapUrl.get(s.id) +
                   '">' +
-                  s["name"] +
+                  getName(s) +
                   "</a></li>"
               )
               .join("") +
@@ -4200,6 +4291,92 @@ var app = (function () {
   class MLCt extends se {
     constructor(e) {
       super(), re(this, e, null, MLt, i, {});
+    }
+  }
+
+  function Settingst(t) {
+    let n;
+    let namesCopy = [...namesNotUsed];
+    let gridNames = gridFilterDiv(namesCopy, ["Official", "Unofficial"]);
+    let save = w("button");
+    save.innerHTML = "Save";
+    M(save, "style", "margin-left: auto;margin-right: auto;");
+    M(
+      save,
+      "class",
+      "px-2 py-2 uppercase tracking-widest border-none font-semibold text-sm bg-custom-positive"
+    );
+    M(save, "aria-label", "Save settings");
+    save.addEventListener("click", function () {
+      saveNamesNotUsed(namesCopy);
+      // TODO It would be better to close the popup here instead of reloading
+      window.location.reload();
+    });
+    explainationNames = w("div");
+    explainationNames.innerHTML =
+      "You can choose to use official names or unofficial names or both.";
+    return {
+      c() {
+        (n = w("div")),
+          M(n, "style", "display: grid;justify-content: center;"),
+          M(n, "class", "text");
+      },
+      m(e, t) {
+        g(e, n, t),
+          p(n, explainationNames),
+          p(n, gridNames),
+          p(n, save);
+      },
+      p: e,
+      i: e,
+      o: e,
+      d(e) {
+        e && y(n);
+      },
+    };
+  }
+
+  function gridFilterDiv(filteredGames, games) {
+    let grid = w("div");
+    M(grid, "class", "filter-form");
+    [...games].forEach((g, index) => {
+      let checkbox;
+      let checkboxInput;
+      let checkboxLabel;
+      (checkbox = w("div")),
+        (checkboxInput = w("input")),
+        (checkboxInput.id = g),
+        (checkboxInput.name = g),
+        (checkboxInput.checked = !filteredGames.includes(index)),
+        (checkboxInput.type = "checkbox"),
+        (checkboxLabel = w("label")),
+        (checkboxLabel.innerHTML = g),
+        p(checkbox, checkboxInput),
+        p(checkbox, checkboxLabel),
+        M(checkbox, "style", "display: flex;gap: 5px;"),
+        M(checkboxLabel, "style", "display:flex;align-items: center;"),
+        M(checkboxLabel, "for", g),
+        checkboxInput.addEventListener("click", function () {
+          const find = filteredGames.indexOf(index);
+          if (find != -1) {
+            filteredGames.splice(find, 1);
+          } else {
+            filteredGames.push(index);
+          }
+        }),
+        checkboxInput.addEventListener("keypress", function (e) {
+          if (e.key === "Enter") {
+            checkboxInput.click();
+          }
+        }),
+        p(grid, checkbox);
+    });
+    return grid;
+  }
+
+  class SettingCt extends se {
+    constructor(e) {
+      super(), re(this, e, null, Settingst, i, {});
     }
   }
 
@@ -4388,7 +4565,7 @@ var app = (function () {
           (n = w("p")),
             (s = w("p")),
             (n.innerHTML =
-              'Have questions/run into bugs? DM Beignet0 on Reddit, beignetSan on Twitch, @beignet0.bsky.social on Bluesky, beignet1139 on Discord or create an issue in <a href="https://github.com/nterrien/etrian-heardle/issues" target="_blank">Github</a>!<br><br>Don\'t want to wait until tomorrow? You can also play infinitely to <a href="https://nterrien.github.io/etrian-infinite-heardle/" title="Etrian Odyssey Infinite Heardle">Etrian Odyssey Infinite Heardle</a>.'),
+              'Have questions/run into bugs? DM Beignet0 on Reddit, beignetSan on Twitch, <a href="https://bsky.app/profile/beignet0.bsky.social">@beignet0.bsky.social</a> on Bluesky, beignet1139 on Discord or create an issue in <a href="https://github.com/nterrien/etrian-heardle/issues" target="_blank">Github</a>!<br><br>Don\'t want to wait until tomorrow? You can also play infinitely to <a href="https://nterrien.github.io/etrian-infinite-heardle/" title="Etrian Odyssey Infinite Heardle">Etrian Odyssey Infinite Heardle</a>.'),
             (r = x()),
             (s = w("p")),
             (i = x()),
@@ -5130,14 +5307,23 @@ var app = (function () {
             (a = x()),
             (z = w("div")),
             (z.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M 2.324219 3.484375 C 1.039062 3.484375 0 4.523438 0 5.804688 C 0 7.089844 1.039062 8.128906 2.324219 8.128906 C 3.605469 8.128906 4.644531 7.089844 4.644531 5.804688 C 4.644531 4.523438 3.605469 3.484375 2.324219 3.484375 Z M 2.324219 9.675781 C 1.039062 9.675781 0 10.71875 0 12 C 0 13.28125 1.039062 14.324219 2.324219 14.324219 C 3.605469 14.324219 4.644531 13.28125 4.644531 12 C 4.644531 10.71875 3.605469 9.675781 2.324219 9.675781 Z M 2.324219 15.871094 C 1.039062 15.871094 0 16.910156 0 18.195312 C 0 19.476562 1.039062 20.515625 2.324219 20.515625 C 3.605469 20.515625 4.644531 19.476562 4.644531 18.195312 C 4.644531 16.910156 3.605469 15.871094 2.324219 15.871094 Z M 7.742188 7.355469 L 22.453125 7.355469 C 23.308594 7.355469 24 6.660156 24 5.804688 C 24 4.949219 23.308594 4.257812 22.453125 4.257812 L 7.742188 4.257812 C 6.886719 4.257812 6.195312 4.949219 6.195312 5.804688 C 6.195312 6.660156 6.886719 7.355469 7.742188 7.355469 Z M 22.453125 10.453125 L 7.742188 10.453125 C 6.886719 10.453125 6.195312 11.144531 6.195312 12 C 6.195312 12.855469 6.886719 13.546875 7.742188 13.546875 L 22.453125 13.546875 C 23.308594 13.546875 24 12.855469 24 12 C 24 11.144531 23.308594 10.453125 22.453125 10.453125 Z M 22.453125 16.644531 L 7.742188 16.644531 C 6.886719 16.644531 6.195312 17.339844 6.195312 18.195312 C 6.195312 19.050781 6.886719 19.742188 7.742188 19.742188 L 22.453125 19.742188 C 23.308594 19.742188 24 19.050781 24 18.195312 C 24 17.339844 23.308594 16.644531 22.453125 16.644531 Z M 22.453125 16.644531 "></path></svg></div> \n        <div><p>You can use the top right button\n                to see the list of tracks</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 0.84 0.84" fill="currentColor"><path d="m 0.21064201,0.16384524 -0.060461,-0.0254377 c -0.0125241,-0.005265 -0.0271453,-0.002378 -0.0364852,0.007208 C 0.07020427,0.19025183 0.03781367,0.24377014 0.01895607,0.30215 0.01488027,0.3147471 0.01954683,0.3284313 0.03062943,0.33625 L 0.0840516,0.3740414 c 0.01525925,0.0107628 0.02445733,0.0278213 0.02445733,0.0459668 0,0.0181399 -0.0091981,0.0351984 -0.02442187,0.0459442 L 0.03071213,0.5037268 C 0.01965911,0.5115518 0.01498024,0.5252353 0.01904472,0.5378211 0.03790758,0.596214 0.07031649,0.64973739 0.11383285,0.69436517 c 0.009346,0.009591 0.0239788,0.0124669 0.0365029,0.007185 l 0.0602159,-0.0253981 c 0.007538,-0.003227 0.0156018,-0.004813 0.0237543,-0.004813 0.0303354,3.057e-5 0.0557852,0.0219501 0.0590964,0.0508924 l 0.00732,0.063032 c 0.001536,0.0131463 0.0115789,0.0239091 0.0250304,0.0267909 0.0307961,0.006596 0.0622321,0.0100947 0.0937874,0.0104457 0.0323381,-3.5725e-4 0.063807,-0.00385 0.0946446,-0.0104401 0.0134515,-0.002887 0.0235181,-0.0136389 0.0250422,-0.0267909 l 0.007314,-0.0629839 c 0.002127,-0.018021 0.0129908,-0.0340378 0.029337,-0.0431416 0.016423,-0.009211 0.0363375,-0.0103155 0.0536643,-0.003001 l 0.0602052,0.0253981 c 0.0125241,0.005265 0.0271571,0.002378 0.0365087,-0.007185 0.0435151,-0.044625 0.0759253,-0.0981512 0.0947881,-0.15654294 0.004076,-0.0125972 -5.9072e-4,-0.0262926 -0.0116851,-0.0341114 l -0.0534222,-0.0377519 c -0.0152475,-0.0107514 -0.0242387,-0.0278156 -0.0242387,-0.0459555 0,-0.0181399 0.008991,-0.0351984 0.0242152,-0.0459384 l 0.0534517,-0.0378141 c 0.0110472,-0.007813 0.0157377,-0.0214916 0.0116793,-0.0340774 -0.0188274,-0.0584439 -0.0512245,-0.11202726 -0.0947373,-0.15671563 -0.00934,-0.009591 -0.023967,-0.0124839 -0.036491,-0.007213 l -0.0604746,0.0254433 c -0.0172383,0.00723 -0.03707,0.006166 -0.0534044,-0.002887 -0.0163344,-0.009042 -0.027228,-0.0249904 -0.0293606,-0.0429718 l -0.00726,-0.06293186 c -0.001477,-0.01299911 -0.0113425,-0.02368825 -0.0245873,-0.02671726 -0.0622706,-0.01422771 -0.12715158,-0.01422771 -0.18942209,0 -0.0132447,0.0030005 -0.0230868,0.01371815 -0.0245873,0.02671726 l -0.007266,0.06302242 c -0.002068,0.018021 -0.0125004,0.0340207 -0.0288526,0.0430907 -0.0163463,0.00907 -0.0366624,0.0101343 -0.0539597,0.002887 z M 0.4200004,0.28581772 c 0.0773165,0 0.13999641,0.0600705 0.13999641,0.1341682 0,0.0740983 -0.06268,0.13416873 -0.13999641,0.13416873 -0.0773165,0 -0.13999701,-0.0600705 -0.13999701,-0.13416873 0,-0.0740977 0.0626805,-0.1341682 0.13999701,-0.1341682 z"></path></svg></div> \n        <div><p>' +
+              "In settings you can choose whether or not you want to use the official or unofficial names." +
+              "</p></div>"),
             (v = x()),
+            (zz = w("div")),
+            (zz.innerHTML =
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M 2.324219 3.484375 C 1.039062 3.484375 0 4.523438 0 5.804688 C 0 7.089844 1.039062 8.128906 2.324219 8.128906 C 3.605469 8.128906 4.644531 7.089844 4.644531 5.804688 C 4.644531 4.523438 3.605469 3.484375 2.324219 3.484375 Z M 2.324219 9.675781 C 1.039062 9.675781 0 10.71875 0 12 C 0 13.28125 1.039062 14.324219 2.324219 14.324219 C 3.605469 14.324219 4.644531 13.28125 4.644531 12 C 4.644531 10.71875 3.605469 9.675781 2.324219 9.675781 Z M 2.324219 15.871094 C 1.039062 15.871094 0 16.910156 0 18.195312 C 0 19.476562 1.039062 20.515625 2.324219 20.515625 C 3.605469 20.515625 4.644531 19.476562 4.644531 18.195312 C 4.644531 16.910156 3.605469 15.871094 2.324219 15.871094 Z M 7.742188 7.355469 L 22.453125 7.355469 C 23.308594 7.355469 24 6.660156 24 5.804688 C 24 4.949219 23.308594 4.257812 22.453125 4.257812 L 7.742188 4.257812 C 6.886719 4.257812 6.195312 4.949219 6.195312 5.804688 C 6.195312 6.660156 6.886719 7.355469 7.742188 7.355469 Z M 22.453125 10.453125 L 7.742188 10.453125 C 6.886719 10.453125 6.195312 11.144531 6.195312 12 C 6.195312 12.855469 6.886719 13.546875 7.742188 13.546875 L 22.453125 13.546875 C 23.308594 13.546875 24 12.855469 24 12 C 24 11.144531 23.308594 10.453125 22.453125 10.453125 Z M 22.453125 16.644531 L 7.742188 16.644531 C 6.886719 16.644531 6.195312 17.339844 6.195312 18.195312 C 6.195312 19.050781 6.886719 19.742188 7.742188 19.742188 L 22.453125 19.742188 C 23.308594 19.742188 24 19.050781 24 18.195312 C 24 17.339844 23.308594 16.644531 22.453125 16.644531 Z M 22.453125 16.644531 "></path></svg></div> \n        <div><p>' +
+              "You can use the top right button to see the list of tracks." +
+              "</p></div>"),
+            (vv = x()),
             (l = w("div")),
             Q(u.$$.fragment),
             M(n, "class", "flex items-center mb-6"),
             M(s, "class", "flex items-center mb-6"),
             M(o, "class", "flex items-center mb-6"),
             M(z, "class", "flex items-center mb-6"),
+            M(zz, "class", "flex items-center mb-6"),
             M(l, "class", "justify-center flex py-2 mt-2");
         },
         m(e, d) {
@@ -5150,6 +5336,8 @@ var app = (function () {
             p(t, a),
             p(t, z),
             p(t, v),
+            p(t, zz),
+            p(t, vv),
             p(t, l),
             ee(u, l, null),
             (c = !0);
@@ -9645,9 +9833,34 @@ var app = (function () {
     );
   }
 
+  function Settingn(t) {
+    let n, r;
+    return (
+      (n = new SettingCt({})),
+      {
+        c() {
+          Q(n.$$.fragment);
+        },
+        m(e, t) {
+          ee(n, e, t), (r = !0);
+        },
+        p: e,
+        i(e) {
+          r || (Z(n.$$.fragment, e), (r = !0));
+        },
+        o(e) {
+          q(n.$$.fragment, e), (r = !1);
+        },
+        d(e) {
+          te(n, e);
+        },
+      }
+    );
+  }
+
   function Fn(e) {
     let t, n, r, s;
-    const i = [Rn, Wn, In, Hn, MLn],
+    const i = [Rn, Wn, In, Hn, MLn, Settingn],
       o = [];
 
     function a(e, t) {
@@ -9661,7 +9874,9 @@ var app = (function () {
               ? 3
               : "music-list" == e[10].name
                 ? 4
-                : -1;
+                : "Settings" == e[10].name
+                  ? 5
+                  : -1;
     }
     return (
       ~(t = a(e)) && (n = o[t] = i[t](e)),
@@ -10075,8 +10290,8 @@ var app = (function () {
         let t = e.detail.currentSong;
         let musicString = musicNameList.find((a) => a.id == l.correctAnswer);
         // console.log("current song", l);
-        n(2, (l.artist = musicString["name"].split(" - ")[1]), l),
-          n(2, (l.title = musicString["name"].split(" - ")[0]), l),
+        n(2, (l.artist = musicString.game), l),
+          n(2, (l.title = getName(musicString).split(" - ")[0]), l),
           n(2, (l.img = t.artwork_url), l),
           n(2, (l.duration = t.duration), l),
           (function (e, t, n) {
@@ -10102,7 +10317,7 @@ var app = (function () {
           r = e.detail.isSkipped,
           s = !1;
         var o;
-        var findMusic = musicNameList.find((m) => m["name"] == t);
+        var findMusic = musicNameList.find((m) => getName(m) == t);
         r ||
           !findMusic ||
           findMusic.id != l.correctAnswer ||

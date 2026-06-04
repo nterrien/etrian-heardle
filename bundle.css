@@ -1309,7 +1309,17 @@ a.svelte-1d3p4dy.svelte-1d3p4dy {
     }
 }
 
+.filter-form {
+    margin: 10px 0;
+    column-count: 2;
+    font-size: 12px;
+}
+
 @media (max-width: 600px) {
+    .filter-form {
+        column-count: 1;
+    }
+
     .text-3xl {
         font-size: 1rem;
         line-height: 1.25rem;

@@ -12,7 +12,8 @@ Open **index.html** with your browser (Firefox, Chromium)
 <br />
 <br />
 HOW TO MAKE YOUR OWN HEARDLE (UDPATED on **25/07/12**)
-(If you want an Heardle that includes translations you can check the readme of [Pokémon Heardle](https://github.com/nterrien/pkmn-heardle))
+(If you want an Heardle that includes translations you can check the readme of [Pokémon Heardle](https://github.com/nterrien/pkmn-heardle).
+**The current branch is a better branch to fork compared to the master, because it remove the unofficial names and parameters linked to this.**)
 
 1. **Fork this project** to create your own copy of the code
 2. **Rename the project** with the URL that you'd like to Heardle to live at, by going to **Settings > Repository name**

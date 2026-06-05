@@ -4309,8 +4309,7 @@ var app = (function () {
     M(save, "aria-label", "Save settings");
     save.addEventListener("click", function () {
       saveNamesNotUsed(namesCopy);
-      // TODO It would be better to close the popup here instead of reloading
-      window.location.reload();
+      t[0](); // Close modal
     });
     explainationNames = w("div");
     explainationNames.innerHTML =
@@ -4376,7 +4375,7 @@ var app = (function () {
 
   class SettingCt extends se {
     constructor(e) {
-      super(), re(this, e, null, Settingst, i, {});
+      super(), re(this, e, yn, Settingst, i, {});
     }
   }
 
@@ -9837,6 +9836,7 @@ var app = (function () {
     let n, r;
     return (
       (n = new SettingCt({})),
+      n.$on("close", t[19]),
       {
         c() {
           Q(n.$$.fragment);
